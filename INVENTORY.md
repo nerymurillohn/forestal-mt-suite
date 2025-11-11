@@ -1,6 +1,6 @@
 # Repository Inventory
 
-Generated: 2025-11-11T07:12:11Z
+Generated: 2025-11-11T08:00:30Z
 Total directories: 37
 Total files: 154
 Total size: 55.5 MB
@@ -12,9 +12,9 @@ Total size: 55.5 MB
 | 1 | `.gitattributes` | 592 B | 2025-11-11T03:06:33Z | `315cbb28ffe419c364ec79c592fbf0e9681ad1bec5c108168acfa54d3a720b18` |
 | 2 | `.githooks/pre-commit` | 398 B | 2025-11-10T17:55:56Z | `271bba5bd310c0fe38c731309945933b5f2f71a07d026c7823e34428e1ac3a83` |
 | 3 | `.github/workflows/python-package.yml` | 1.3 KB | 2025-11-11T03:48:09Z | `0f1fc4d3d06fbe51f5934354f8012dc298cc6e990cc18a8f3cd7a79db402419f` |
-| 4 | `.github/workflows/validate-repo.yml` | 1.2 KB | 2025-11-11T04:25:20Z | `37f9ce7ac3b44300d494d18bccf689127525e6ecc6e7ad74736641423515b575` |
+| 4 | `.github/workflows/validate-repo.yml` | 3.1 KB | 2025-11-11T08:00:28Z | `fed2a03b958b4a867a3093c2778bbcf46d24c077f17c3aabef5d016faf22e2fe` |
 | 5 | `.gitignore` | 610 B | 2025-11-11T03:06:29Z | `3f3652b93afa70689d436c7458e3fb39f1a789d41e3b40d478f71cc48b82cbf2` |
-| 6 | `AGENTS.md` | 20.7 KB | 2025-11-11T07:12:10Z | `1f43f83a2d5c9f61ec52f3c2edd7e4fea8bd3ccd9f1e056dae5f49d6b85b0189` |
+| 6 | `AGENTS.md` | 21.4 KB | 2025-11-11T08:00:28Z | `d91ab5520175ecf3d0d0f1c4c2db94325a79dcb672f9c7b9f55a48567bb5cc65` |
 | 7 | `assets/fonts/fonts.css` | 2.2 KB | 2025-11-10T11:05:52Z | `286a5b1ad6a9368cc31d0f2bf6bc866def99b9d912c9bb6dcab1050069723b41` |
 | 8 | `assets/fonts/README.md` | 1.5 KB | 2025-11-10T15:55:05Z | `d393942a2cef8254348d75e21e671cb2b4b78d56caece366232867cf50586465` |
 | 9 | `assets/fonts/source/Cinzel/Cinzel-VariableFont_wght.ttf` | 123.4 KB | 2025-11-09T08:02:42Z | `3192c4e40421bf2824f40f5b0eba1047eacfa7b08d6e8ba6941b803e701a29bf` |
@@ -136,7 +136,7 @@ Total size: 55.5 MB
 | 125 | `docs/company/company-profile.md` | 729 B | 2025-11-11T06:13:09Z | `11c77f92c4aa5ac1d9fb1eda0df6b6a894d5c560c4d2ad637a6de63c3a006346` |
 | 126 | `docs/company/returns-policy.md` | 2.2 KB | 2025-11-11T06:13:09Z | `b8b09b9806baf46f462cdef9be338fda8bdcb9475b80da2a97592946a47da3e3` |
 | 127 | `docs/company/shipping.md` | 2.5 KB | 2025-11-11T06:13:09Z | `2ffe1bdc9ca9ae9e0c71c3c2fe40b85a2198b187adaecc7c30a6fc8045cc1bc3` |
-| 128 | `INVENTORY.md` | 25.5 KB | 2025-11-11T07:12:10Z | `b32ca924e3899629231339e5d26dcf3da8be0f799929e27accb0ca76f6c3ed0b` |
+| 128 | `INVENTORY.md` | 50.9 KB | 2025-11-11T08:00:28Z | `a068e8711ac5005721bf750b5c7cf41b08127b3e05b2a102dc41ddc0704f5257` |
 | 129 | `products-data/catalogue.json` | 198.4 KB | 2025-11-11T04:23:13Z | `867ee0da925597f4640841c935d53d9e97bc563f7a3b79773ef07aacfb428cff` |
 | 130 | `products-data/data-manifest.json` | 19.3 KB | 2025-11-11T07:12:10Z | `970d481a61a188284ac98862870df0d40d129fc1d4d5e5bf8d7699b83a597eec` |
 | 131 | `products-data/forestal-mt-products-catalogue-46-skus.xlsx` | 33.8 KB | 2025-11-10T08:48:54Z | `648c90a4a43cb578cf008b1cde328336a484de63f8ecf9fc1b7a1a235e02c258` |
@@ -152,8 +152,8 @@ Total size: 55.5 MB
 | 141 | `projects/sds-tds-generator/README.md` | 6.4 KB | 2025-11-11T04:50:59Z | `bf7ed713afaddb58c742a46c8047c30be61d9cb7fdd432cf327d224a9f43a83f` |
 | 142 | `projects/sds-tds-generator/sds-tds-generator-blueprint.md` | 27.5 KB | 2025-11-11T05:13:13Z | `5459ab040333b9e8318d30f41734aca6a6437b5b2222224c27676016367c0edb` |
 | 143 | `projects/sds-tds-generator/source-files-manifest.md` | 13.7 KB | 2025-11-11T05:13:13Z | `4dab0e8b47c06c1d7fc9e574bfb34cbb378556476850478bd2ac0cad9df1f5e4` |
-| 144 | `README.md` | 5.0 KB | 2025-11-11T07:12:10Z | `81eadfb964cb62492176f5e3fdd93d69378305e65fed9fdfd05151827ed10db5` |
-| 145 | `REPOSITORY_INFO.md` | 3.0 KB | 2025-11-11T07:12:10Z | `be3a05d0c6ecb516aba468736c4e1813284f1b9671a10a8f18fed517ff6beee6` |
+| 144 | `README.md` | 5.3 KB | 2025-11-11T08:00:28Z | `c49a5268ba9d1524d6289dfc62d3cf55a28b02e5eb6518c000f18bcb892634a0` |
+| 145 | `REPOSITORY_INFO.md` | 3.4 KB | 2025-11-11T08:00:28Z | `b1327a953b87640890515b313434957b45c7283e8d247e8a3e4d18e4ca7729f9` |
 | 146 | `requirements.txt` | 461 B | 2025-11-11T07:01:20Z | `e1005130be0bdecde136099fd8e4dc8a5b9b6d2dea67bcc853f47d9a94ac4856` |
 | 147 | `tests/__init__.py` | 33 B | 2025-11-11T04:25:20Z | `be48aee56b4c5914ea6602a6be317497b80d183dfdde8b8fa8d6356cb1cd897e` |
 | 148 | `tests/schemas/product-schema.json` | 3.5 KB | 2025-11-11T06:53:08Z | `61f85d87c8b783d48d0f9c93923a24540323235f9406b9c5cec2fa1816d6e8cd` |
