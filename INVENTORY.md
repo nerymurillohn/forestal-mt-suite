@@ -1,9 +1,9 @@
 # Repository Inventory
 
-Generated: 2025-11-11T06:49:58Z
+Generated: 2025-11-11T06:54:17Z
 Total directories: 37
 Total files: 153
-Total size: 55.5 MB
+Total size: 55.4 MB
 
 ## File Listing
 
@@ -15,7 +15,7 @@ Total size: 55.5 MB
 | 4 | `.github/workflows/validate-repo.yml` | 1.2 KB | 2025-11-11T04:13:22Z | `37f9ce7ac3b44300d494d18bccf689127525e6ecc6e7ad74736641423515b575` |
 | 5 | `.gitignore` | 610 B | 2025-11-11T04:00:08Z | `3f3652b93afa70689d436c7458e3fb39f1a789d41e3b40d478f71cc48b82cbf2` |
 | 6 | `.python-version` | 5 B | 2025-11-11T04:06:34Z | `49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93` |
-| 7 | `AGENTS.md` | 18.2 KB | 2025-11-11T06:49:38Z | `0719933ee105d09187b15d308abd02033c0204315562192677dab33d38a6e78e` |
+| 7 | `AGENTS.md` | 18.2 KB | 2025-11-11T06:51:49Z | `0719933ee105d09187b15d308abd02033c0204315562192677dab33d38a6e78e` |
 | 8 | `assets/fonts/fonts.css` | 2.2 KB | 2025-11-11T04:00:08Z | `286a5b1ad6a9368cc31d0f2bf6bc866def99b9d912c9bb6dcab1050069723b41` |
 | 9 | `assets/fonts/README.md` | 1.5 KB | 2025-11-11T04:00:08Z | `d393942a2cef8254348d75e21e671cb2b4b78d56caece366232867cf50586465` |
 | 10 | `assets/fonts/source/Cinzel/Cinzel-VariableFont_wght.ttf` | 123.4 KB | 2025-11-11T04:00:08Z | `3192c4e40421bf2824f40f5b0eba1047eacfa7b08d6e8ba6941b803e701a29bf` |
@@ -136,9 +136,9 @@ Total size: 55.5 MB
 | 125 | `docs/company/company-profile.md` | 729 B | 2025-11-11T06:48:42Z | `11c77f92c4aa5ac1d9fb1eda0df6b6a894d5c560c4d2ad637a6de63c3a006346` |
 | 126 | `docs/company/returns-policy.md` | 2.2 KB | 2025-11-11T06:48:42Z | `b8b09b9806baf46f462cdef9be338fda8bdcb9475b80da2a97592946a47da3e3` |
 | 127 | `docs/company/shipping.md` | 2.5 KB | 2025-11-11T06:48:42Z | `2ffe1bdc9ca9ae9e0c71c3c2fe40b85a2198b187adaecc7c30a6fc8045cc1bc3` |
-| 128 | `INVENTORY.md` | 50.3 KB | 2025-11-11T06:49:38Z | `7a02d47647af26912a67733464f93841d0317555425092fc9767e961a4bc6798` |
+| 128 | `INVENTORY.md` | 25.3 KB | 2025-11-11T06:51:49Z | `29ebba589f32ec1aa5915a0ff5fa4ce581adfeee270d4937242375b4672db690` |
 | 129 | `products-data/catalogue.json` | 195.3 KB | 2025-11-11T04:12:37Z | `d2167e434c306762c1c0446e1d84c25ad80ddf55902ba43783b19aa9f6401615` |
-| 130 | `products-data/data-manifest.json` | 19.3 KB | 2025-11-11T04:00:08Z | `e72043181bab74b5ef6e4132ba4a305ea367ae109c6a541bd675b84c21aef55c` |
+| 130 | `products-data/data-manifest.json` | 19.3 KB | 2025-11-11T06:54:14Z | `d54b832d43cb06715928de29c6dd630f95151bc43229684dbea800ed239ab247` |
 | 131 | `products-data/forestal-mt-products-catalogue-46-skus.xlsx` | 33.8 KB | 2025-11-11T04:00:08Z | `648c90a4a43cb578cf008b1cde328336a484de63f8ecf9fc1b7a1a235e02c258` |
 | 132 | `products-data/forestal-mt-products-retail-presentations-and-pricing.xlsx` | 14.6 KB | 2025-11-11T04:00:08Z | `013ab87a29c23fd9aac039224c6b0005cff07ce748a748efd3a0cf57509f4067` |
 | 133 | `products-data/forestal-mt-products-wholesale-presentations-and-pricing.xlsx` | 13.3 KB | 2025-11-11T04:00:08Z | `a8fd0d2515f17d0ce5bae5627f809f082a71d7495d54f0ab7c67d62d29cd81bc` |
@@ -152,13 +152,13 @@ Total size: 55.5 MB
 | 141 | `projects/sds-tds-generator/README.md` | 6.4 KB | 2025-11-11T04:38:14Z | `bf7ed713afaddb58c742a46c8047c30be61d9cb7fdd432cf327d224a9f43a83f` |
 | 142 | `projects/sds-tds-generator/sds-tds-generator-blueprint.md` | 27.5 KB | 2025-11-11T05:11:27Z | `5459ab040333b9e8318d30f41734aca6a6437b5b2222224c27676016367c0edb` |
 | 143 | `projects/sds-tds-generator/source-files-manifest.md` | 13.7 KB | 2025-11-11T05:11:27Z | `4dab0e8b47c06c1d7fc9e574bfb34cbb378556476850478bd2ac0cad9df1f5e4` |
-| 144 | `README.md` | 5.6 KB | 2025-11-11T06:49:38Z | `48079471b7199e92f715e06656bc0d24fc25ff7c7eb70e15f4bb083f46c27a6b` |
-| 145 | `REPOSITORY_INFO.md` | 3.4 KB | 2025-11-11T06:49:38Z | `039d5a78e110c81429aedfb06c759453e0a4fb2c236bcc64cbb990d8628a64dd` |
-| 146 | `requirements.txt` | 261 B | 2025-11-11T06:49:38Z | `deb05e68857c2504e55387861965a30c65dc1eba9985f0d57b118aa04c3e89dd` |
+| 144 | `README.md` | 5.0 KB | 2025-11-11T06:51:49Z | `0297dc0fa52cf29de35d82b6e0c1c6f00f7ba2627c249e8b0de412ddb010d465` |
+| 145 | `REPOSITORY_INFO.md` | 3.0 KB | 2025-11-11T06:51:49Z | `d386de6fcde9c6426d65f650825bba3d72cb202ff111eb6e60efd2ab857da7e4` |
+| 146 | `requirements.txt` | 261 B | 2025-11-11T06:51:49Z | `deb05e68857c2504e55387861965a30c65dc1eba9985f0d57b118aa04c3e89dd` |
 | 147 | `tests/__init__.py` | 33 B | 2025-11-11T04:13:03Z | `be48aee56b4c5914ea6602a6be317497b80d183dfdde8b8fa8d6356cb1cd897e` |
-| 148 | `tests/schemas/product-schema.json` | 3.5 KB | 2025-11-11T06:49:38Z | `61f85d87c8b783d48d0f9c93923a24540323235f9406b9c5cec2fa1816d6e8cd` |
+| 148 | `tests/schemas/product-schema.json` | 3.5 KB | 2025-11-11T06:51:49Z | `61f85d87c8b783d48d0f9c93923a24540323235f9406b9c5cec2fa1816d6e8cd` |
 | 149 | `tests/test_data_integrity.py` | 3.5 KB | 2025-11-11T04:13:03Z | `5ccdc8ba25185481af67bfc4dbd8a077ef6d1915536dd5b626ecb2f131da3e2a` |
-| 150 | `tests/test_semantic_validation.py` | 11.4 KB | 2025-11-11T06:49:38Z | `7f27d9eb95a8287cc029a9dd707ed6cd35cd95e5726e8b4fe6ed3b857af3d48a` |
+| 150 | `tests/test_semantic_validation.py` | 11.4 KB | 2025-11-11T06:51:49Z | `7f27d9eb95a8287cc029a9dd707ed6cd35cd95e5726e8b4fe6ed3b857af3d48a` |
 | 151 | `tools/build_product_data.py` | 8.3 KB | 2025-11-11T04:00:08Z | `3677250b417373b89fc7a2bc0d1ebd9d5770659270a73f8aa964241351841cd0` |
 | 152 | `tools/generate_inventory.py` | 7.4 KB | 2025-11-11T04:00:08Z | `ff3106021585b1bf52be9e3578f3e9ffc0c09b18bedb86f6ac7321cd0280e812` |
 | 153 | `tools/verify_product_assets.py` | 2.4 KB | 2025-11-11T04:00:08Z | `8e3f4ecf62a88937433c45609790c734d68f1635f565045d0f24e2bea53352b2` |
