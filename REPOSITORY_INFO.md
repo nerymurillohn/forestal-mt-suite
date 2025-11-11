@@ -63,7 +63,7 @@ This repository is optimized for consumption by AI assistants, automation system
 ├── INVENTORY.md (25.3 KB)
 ├── README.md (5.0 KB)
 ├── REPOSITORY_INFO.md (3.0 KB)
-└── requirements.txt (261 B)
+└── requirements.txt (461 B)
 ```
 <!-- AUTO-REPO-STRUCTURE:END -->
 

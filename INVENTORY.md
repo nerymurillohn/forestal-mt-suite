@@ -1,6 +1,6 @@
 # Repository Inventory
 
-Generated: 2025-11-11T06:54:17Z
+Generated: 2025-11-11T06:56:12Z
 Total directories: 37
 Total files: 153
 Total size: 55.4 MB
@@ -136,7 +136,7 @@ Total size: 55.4 MB
 | 125 | `docs/company/company-profile.md` | 729 B | 2025-11-11T06:48:42Z | `11c77f92c4aa5ac1d9fb1eda0df6b6a894d5c560c4d2ad637a6de63c3a006346` |
 | 126 | `docs/company/returns-policy.md` | 2.2 KB | 2025-11-11T06:48:42Z | `b8b09b9806baf46f462cdef9be338fda8bdcb9475b80da2a97592946a47da3e3` |
 | 127 | `docs/company/shipping.md` | 2.5 KB | 2025-11-11T06:48:42Z | `2ffe1bdc9ca9ae9e0c71c3c2fe40b85a2198b187adaecc7c30a6fc8045cc1bc3` |
-| 128 | `INVENTORY.md` | 25.3 KB | 2025-11-11T06:51:49Z | `29ebba589f32ec1aa5915a0ff5fa4ce581adfeee270d4937242375b4672db690` |
+| 128 | `INVENTORY.md` | 25.3 KB | 2025-11-11T06:54:17Z | `5e5c1b7d111310d277e22f1c3917ac13ac8d6a51aba5a487c52bdc7ad97df601` |
 | 129 | `products-data/catalogue.json` | 195.3 KB | 2025-11-11T04:12:37Z | `d2167e434c306762c1c0446e1d84c25ad80ddf55902ba43783b19aa9f6401615` |
 | 130 | `products-data/data-manifest.json` | 19.3 KB | 2025-11-11T06:54:14Z | `d54b832d43cb06715928de29c6dd630f95151bc43229684dbea800ed239ab247` |
 | 131 | `products-data/forestal-mt-products-catalogue-46-skus.xlsx` | 33.8 KB | 2025-11-11T04:00:08Z | `648c90a4a43cb578cf008b1cde328336a484de63f8ecf9fc1b7a1a235e02c258` |
@@ -152,9 +152,9 @@ Total size: 55.4 MB
 | 141 | `projects/sds-tds-generator/README.md` | 6.4 KB | 2025-11-11T04:38:14Z | `bf7ed713afaddb58c742a46c8047c30be61d9cb7fdd432cf327d224a9f43a83f` |
 | 142 | `projects/sds-tds-generator/sds-tds-generator-blueprint.md` | 27.5 KB | 2025-11-11T05:11:27Z | `5459ab040333b9e8318d30f41734aca6a6437b5b2222224c27676016367c0edb` |
 | 143 | `projects/sds-tds-generator/source-files-manifest.md` | 13.7 KB | 2025-11-11T05:11:27Z | `4dab0e8b47c06c1d7fc9e574bfb34cbb378556476850478bd2ac0cad9df1f5e4` |
-| 144 | `README.md` | 5.0 KB | 2025-11-11T06:51:49Z | `0297dc0fa52cf29de35d82b6e0c1c6f00f7ba2627c249e8b0de412ddb010d465` |
-| 145 | `REPOSITORY_INFO.md` | 3.0 KB | 2025-11-11T06:51:49Z | `d386de6fcde9c6426d65f650825bba3d72cb202ff111eb6e60efd2ab857da7e4` |
-| 146 | `requirements.txt` | 261 B | 2025-11-11T06:51:49Z | `deb05e68857c2504e55387861965a30c65dc1eba9985f0d57b118aa04c3e89dd` |
+| 144 | `README.md` | 5.0 KB | 2025-11-11T06:54:17Z | `5f84917443d7d63d1c381c6244d6c2b1d2d215edc49171bf698e62c2257e6121` |
+| 145 | `REPOSITORY_INFO.md` | 3.0 KB | 2025-11-11T06:54:17Z | `2cba3c772e1c94a350a0fb59cdc6f42acd066eaf8ab6811b5a3fb0ba51df338e` |
+| 146 | `requirements.txt` | 461 B | 2025-11-11T06:56:08Z | `e1005130be0bdecde136099fd8e4dc8a5b9b6d2dea67bcc853f47d9a94ac4856` |
 | 147 | `tests/__init__.py` | 33 B | 2025-11-11T04:13:03Z | `be48aee56b4c5914ea6602a6be317497b80d183dfdde8b8fa8d6356cb1cd897e` |
 | 148 | `tests/schemas/product-schema.json` | 3.5 KB | 2025-11-11T06:51:49Z | `61f85d87c8b783d48d0f9c93923a24540323235f9406b9c5cec2fa1816d6e8cd` |
 | 149 | `tests/test_data_integrity.py` | 3.5 KB | 2025-11-11T04:13:03Z | `5ccdc8ba25185481af67bfc4dbd8a077ef6d1915536dd5b626ecb2f131da3e2a` |
