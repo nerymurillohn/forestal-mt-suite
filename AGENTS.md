@@ -184,20 +184,23 @@ The main branch has push restrictions. Always use feature branches.
 
 **Feature Branch Naming Convention:**
 ```
-claude/{description}-{session-id}
+agent/{description}-{session-id}
 ```
+
+**Rationale:** Use vendor-neutral `agent/` prefix instead of vendor-specific names (claude/, copilot/, gpt/) to support multi-agent workflows and prevent confusion when different AI tools collaborate on the same repository.
 
 **Examples:**
 ```bash
-claude/forestal-audit-export-readiness-011CV1S7DYoTpQsyQHGFMs4V
-claude/sds-tds-generator-blueprint-011CV1S7DYoTpQsyQHGFMs4V
-claude/restore-blueprint-files-011CV1S7DYoTpQsyQHGFMs4V
+agent/forestal-audit-export-readiness-011CV1S7DYoTpQsyQHGFMs4V
+agent/sds-tds-generator-blueprint-011CV1S7DYoTpQsyQHGFMs4V
+agent/restore-blueprint-files-011CV1S7DYoTpQsyQHGFMs4V
+agent/fix-industry-classification-011CV1S7DYoTpQsyQHGFMs4V
 ```
 
 ### Standard Workflow
 ```bash
 # 1. Create feature branch
-git checkout -b claude/feature-name-sessionid
+git checkout -b agent/feature-name-sessionid
 
 # 2. Make changes
 # ... edit files ...
@@ -215,7 +218,7 @@ git add .
 git commit -m "feat: add new product collection"
 
 # 7. Push to feature branch
-git push -u origin claude/feature-name-sessionid
+git push -u origin agent/feature-name-sessionid
 
 # 8. User merges via GitHub PR or local merge
 ```
@@ -294,7 +297,7 @@ owner: nerymurillohn
 type: Brand and Product Data Repository
 company: Forestal MT (Forestal Murillo Tejada S. de R.L. de C.V.)
 country: Honduras
-industry: Artisan Furniture Manufacturing
+industry: Traditional Botanical Products
 canonical: true
 description: Brief description of document purpose
 last_reviewed: YYYY-MM-DD
@@ -438,7 +441,7 @@ python tools/verify_product_assets.py
 - [ ] Verify no implementation code in projects/ folder
 
 ### Before Pushing
-- [ ] Feature branch follows naming convention: `claude/{description}-{sessionid}`
+- [ ] Feature branch follows naming convention: `agent/{description}-{sessionid}`
 - [ ] Commit messages follow conventional commits format
 - [ ] No binary files committed without LFS
 - [ ] No sensitive data (credentials, API keys) in commit
@@ -458,8 +461,8 @@ python tools/verify_product_assets.py
 
 **Solution:** Always use feature branches:
 ```bash
-git checkout -b claude/my-feature-sessionid
-git push -u origin claude/my-feature-sessionid
+git checkout -b agent/my-feature-sessionid
+git push -u origin agent/my-feature-sessionid
 ```
 
 ### 2. "CI failed: pytest found no tests"
