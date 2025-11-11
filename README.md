@@ -50,7 +50,7 @@ Forestal MT Suite is the canonical brand, product, and operations repository for
 ## Repository Snapshot
 
 <!-- AUTO-REPO-SNAPSHOT:START -->
-_Last updated: 2025-11-11 01:11:01 UTC_
+_Last updated: 2025-11-11 01:45:54 UTC_
 
 | Top-Level | Subdirs | Files | Size |
 | --- | ---: | ---: | ---: |
@@ -78,7 +78,7 @@ See [`INVENTORY.md`](INVENTORY.md) for the complete file listing.
 
 ```mermaid
 graph LR;
-    Excel[Excel Masters<br/>(products-data/*.xlsx)] -->|python tools/build_product_data.py| JSON[Generated JSON & CSV];
+    Excel["Excel Masters (products-data/*.xlsx)"] -->|python tools/build_product_data.py| JSON[Generated JSON & CSV];
     JSON -->|python tools/verify_product_assets.py| Check[Hero/Doc Integrity Check];
     JSON --> Catalogue[Static Catalogue / AI Pipelines];
 ```
