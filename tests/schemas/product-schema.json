@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://forestal-mt.com/schemas/product-sku.json",
+  "title": "Forestal MT Product SKU Schema",
+  "description": "Schema validation for Forestal MT Suite product data (sku-base.json)",
+  "type": "array",
+  "minItems": 46,
+  "maxItems": 46,
+  "items": {
+    "type": "object",
+    "required": [
+      "sku",
+      "product_name",
+      "collection",
+      "botanical_source",
+      "hs_code",
+      "ingredients",
+      "country_of_origin",
+      "hero_image_reference",
+      "doc_reference"
+    ],
+    "properties": {
+      "sku": {
+        "type": "string",
+        "pattern": "^FMT-[A-Z]{2,4}-[A-Z]{2,4}-2025$",
+        "description": "SKU following format: FMT-{COLLECTION}-{PRODUCT}-2025"
+      },
+      "product_name": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 200,
+        "description": "Human-readable product name"
+      },
+      "seal": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Quality seal phrase (e.g., 'Pure & Unrefined')"
+      },
+      "collection": {
+        "type": "string",
+        "enum": ["Batana Oil", "Stingless Bee Honey", "Traditional Herbs"],
+        "description": "Product collection (one of three valid collections)"
+      },
+      "botanical_source": {
+        "type": "string",
+        "pattern": "^[A-Z][a-z]+\\s([a-z]+|spp\\.)$|^Multiple sources$",
+        "minLength": 3,
+        "description": "Latin botanical name (Genus species, Genus spp., or 'Multiple sources')"
+      },
+      "hs_code": {
+        "oneOf": [
+          {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999999
+          },
+          {
+            "type": "string",
+            "pattern": "^\\d{6,10}$"
+          }
+        ],
+        "description": "Harmonized System code (6-10 digits, integer or string)"
+      },
+      "part_used": {
+        "type": "string",
+        "minLength": 2,
+        "description": "Plant part used (e.g., 'kernel oil', 'whole bee colony product', 'leaf')"
+      },
+      "product_description": {
+        "type": "string",
+        "minLength": 50,
+        "description": "Detailed product description (minimum 50 characters)"
+      },
+      "ingredients": {
+        "type": "string",
+        "minLength": 10,
+        "description": "Ingredient list (INCI-style or natural description)"
+      },
+      "traditional_uses": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 5
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        ],
+        "description": "Traditional uses (string with bullet points or array)"
+      },
+      "processing_method": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Processing/production method description"
+      },
+      "country_of_origin": {
+        "type": "string",
+        "const": "Honduras",
+        "description": "Must be 'Honduras' for all Forestal MT products"
+      },
+      "hero_image_reference": {
+        "type": "string",
+        "pattern": "^assets/products-images/[a-z-]+/hero/fmt-[a-z]{2,4}-[a-z]{2,4}-2025-hero\\.png$",
+        "description": "Path to hero image following naming convention"
+      },
+      "doc_reference": {
+        "type": "string",
+        "pattern": "^docs/collections/[a-z-]+\\.md$",
+        "description": "Path to collection documentation"
+      }
+    },
+    "additionalProperties": false
+  }
+}

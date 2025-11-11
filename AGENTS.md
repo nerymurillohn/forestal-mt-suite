@@ -150,18 +150,39 @@ pytest tests/
 # Run with verbose output
 pytest tests/ -v
 
+# Run specific test module
+pytest tests/test_data_integrity.py -v
+pytest tests/test_semantic_validation.py -v
+
 # Run specific test
 pytest tests/test_data_integrity.py::test_all_hero_images_exist
 ```
 
 ### Test Suite Coverage
-Tests validate:
+
+**Basic Data Integrity Tests** (`test_data_integrity.py`):
 - ✓ Data manifest exists and is valid JSON
 - ✓ All 46 SKUs present in sku-base.json
 - ✓ All hero images exist (46/46)
 - ✓ Hero image naming convention compliance
 - ✓ SKU → hero image cross-references
 - ✓ Documentation references integrity
+- ✓ CSV files parseable (retail.csv, wholesale.csv)
+- ✓ JSON files parseable (catalogue.json, sku-base.json, etc.)
+
+**Semantic Validation Tests** (`test_semantic_validation.py`):
+- ✓ **JSON Schema validation** - Full schema compliance for product data
+- ✓ **HS code format** - 6-10 digits, numeric validation
+- ✓ **Botanical nomenclature** - Latin binomial names (Genus species, Genus spp.)
+- ✓ **Country of origin** - All products must be "Honduras"
+- ✓ **Required fields** - All mandatory fields present and non-empty
+- ✓ **Collection-specific rules** - Batana Oil = Elaeis oleifera, etc.
+- ✓ **SKU naming consistency** - Prefixes match collections (FMT-BO-, FMT-SBH-, FMT-TH-)
+- ✓ **Hero image path consistency** - Paths match SKU lowercase naming
+- ✓ **Ingredient format** - No placeholders, minimum 10 characters
+- ✓ **Excel ↔ JSON parity** - SKUs in Excel match JSON output
+- ✓ **No duplicate SKUs** - All SKUs unique
+- ✓ **No orphaned collections** - All collections have documentation
 
 ### CI/CD Requirements
 **All tests MUST pass before merging to main.**
@@ -383,26 +404,65 @@ pytest tests/test_data_integrity.py::test_no_orphaned_hero_images
 
 ## Data Validation Rules
 
+### JSON Schema Validation
+
+Product data is validated against a formal JSON Schema located at:
+```
+tests/schemas/product-schema.json
+```
+
+**Run schema validation:**
+```bash
+pytest tests/test_semantic_validation.py::test_sku_base_schema_validation -v
+```
+
 ### Required Fields (SKU)
 Every SKU in `products-data/sku-base.json` must have:
 
 ```json
 {
   "sku": "FMT-XX-XXX-2025",          // Required, must match naming convention
-  "product_name": "Product Name",     // Required, non-empty
-  "botanical_source": "Latin name",   // Required, non-empty
-  "ingredients": "Composition",       // Required, non-empty
+  "product_name": "Product Name",     // Required, non-empty, 3-200 chars
+  "collection": "Collection Name",    // Required, one of: Batana Oil, Stingless Bee Honey, Traditional Herbs
+  "botanical_source": "Latin name",   // Required, Genus species or Genus spp. format
+  "ingredients": "Composition",       // Required, minimum 10 characters
   "country_of_origin": "Honduras",    // Required, must be "Honduras"
-  "hs_code": "1234567890"            // Required, 6-10 digits
+  "hs_code": "1234567890",           // Required, 6-10 digits (integer or string)
+  "hero_image_reference": "path",     // Required, must match SKU naming convention
+  "doc_reference": "path"             // Required, must point to collection documentation
 }
 ```
+
+### Format Validation Rules
+
+**HS Codes:**
+- Must be 6-10 digits
+- Can be integer or string
+- Valid examples: `15159099`, `33059000`, `34011100`
+
+**Botanical Names:**
+- Format: `Genus species` (e.g., `Elaeis oleifera`)
+- Format: `Genus spp.` (multiple species, e.g., `Amaranthus spp.`)
+- Special case: `Multiple sources` (for herb blends)
+- First letter capitalized, species lowercase
+- Must be valid Latin binomial nomenclature
+
+**SKU Naming:**
+- Pattern: `FMT-{COLLECTION}-{PRODUCT}-2025`
+- Collection codes: `BO` (Batana Oil), `SBH` (Stingless Bee Honey), `TH` (Traditional Herbs)
+- All uppercase
+- Regex: `^FMT-[A-Z]{2,4}-[A-Z]{2,4}-2025$`
+
+**Country of Origin:**
+- Must be exactly `Honduras` for all products
+- No variations or abbreviations allowed
 
 ### Optional Fields (Graceful Degradation)
 ```json
 {
   "seal": "Pure & Unrefined",              // Default: "Traditional Quality"
   "processing_method": "Description",      // Default: "Traditional methods"
-  "traditional_uses": ["Use 1", "Use 2"], // Can be empty array
+  "traditional_uses": ["Use 1", "Use 2"], // Can be empty array or string
   "part_used": "kernel"                    // Default: "whole plant"
 }
 ```
