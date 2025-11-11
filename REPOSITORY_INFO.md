@@ -58,11 +58,11 @@ This repository is optimized for consumption by AI assistants, automation system
 ├── tools/ (dirs: 0, files: 3, size: 18.2 KB)
 ├── .gitattributes (592 B)
 ├── .gitignore (610 B)
-├── AGENTS.md (18.2 KB)
+├── AGENTS.md (18.7 KB)
 ├── INVENTORY.md (50.4 KB)
 ├── README.md (5.1 KB)
-├── REPOSITORY_INFO.md (3.1 KB)
-└── requirements.txt (261 B)
+├── REPOSITORY_INFO.md (3.3 KB)
+└── requirements.txt (461 B)
 ```
 <!-- AUTO-REPO-STRUCTURE:END -->
 

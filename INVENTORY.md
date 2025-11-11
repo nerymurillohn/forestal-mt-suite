@@ -1,6 +1,6 @@
 # Repository Inventory
 
-Generated: 2025-11-11T06:55:35Z
+Generated: 2025-11-11T07:01:20Z
 Total directories: 37
 Total files: 152
 Total size: 55.5 MB
@@ -14,7 +14,7 @@ Total size: 55.5 MB
 | 3 | `.github/workflows/python-package.yml` | 1.3 KB | 2025-11-11T03:48:09Z | `0f1fc4d3d06fbe51f5934354f8012dc298cc6e990cc18a8f3cd7a79db402419f` |
 | 4 | `.github/workflows/validate-repo.yml` | 1.2 KB | 2025-11-11T04:25:20Z | `37f9ce7ac3b44300d494d18bccf689127525e6ecc6e7ad74736641423515b575` |
 | 5 | `.gitignore` | 610 B | 2025-11-11T03:06:29Z | `3f3652b93afa70689d436c7458e3fb39f1a789d41e3b40d478f71cc48b82cbf2` |
-| 6 | `AGENTS.md` | 18.2 KB | 2025-11-11T06:53:08Z | `0719933ee105d09187b15d308abd02033c0204315562192677dab33d38a6e78e` |
+| 6 | `AGENTS.md` | 18.7 KB | 2025-11-11T07:01:20Z | `549351bb7bdfb1833552d60084af551a330a137c79fe998ee28ed2373507bcda` |
 | 7 | `assets/fonts/fonts.css` | 2.2 KB | 2025-11-10T11:05:52Z | `286a5b1ad6a9368cc31d0f2bf6bc866def99b9d912c9bb6dcab1050069723b41` |
 | 8 | `assets/fonts/README.md` | 1.5 KB | 2025-11-10T15:55:05Z | `d393942a2cef8254348d75e21e671cb2b4b78d56caece366232867cf50586465` |
 | 9 | `assets/fonts/source/Cinzel/Cinzel-VariableFont_wght.ttf` | 123.4 KB | 2025-11-09T08:02:42Z | `3192c4e40421bf2824f40f5b0eba1047eacfa7b08d6e8ba6941b803e701a29bf` |
@@ -135,7 +135,7 @@ Total size: 55.5 MB
 | 124 | `docs/company/company-profile.md` | 729 B | 2025-11-11T06:13:09Z | `11c77f92c4aa5ac1d9fb1eda0df6b6a894d5c560c4d2ad637a6de63c3a006346` |
 | 125 | `docs/company/returns-policy.md` | 2.2 KB | 2025-11-11T06:13:09Z | `b8b09b9806baf46f462cdef9be338fda8bdcb9475b80da2a97592946a47da3e3` |
 | 126 | `docs/company/shipping.md` | 2.5 KB | 2025-11-11T06:13:09Z | `2ffe1bdc9ca9ae9e0c71c3c2fe40b85a2198b187adaecc7c30a6fc8045cc1bc3` |
-| 127 | `INVENTORY.md` | 50.4 KB | 2025-11-11T06:55:35Z | `ffcd799b5a4055e78f38be9380ceb13434d5e1a8575133b717a354865a00aaee` |
+| 127 | `INVENTORY.md` | 50.4 KB | 2025-11-11T07:01:20Z | `a465cdef3b500b47c3d7d62f239ce13b09dc34c305a3ff9790bb79235c6cb920` |
 | 128 | `products-data/catalogue.json` | 198.4 KB | 2025-11-11T04:23:13Z | `867ee0da925597f4640841c935d53d9e97bc563f7a3b79773ef07aacfb428cff` |
 | 129 | `products-data/data-manifest.json` | 19.3 KB | 2025-11-11T06:55:35Z | `d54b832d43cb06715928de29c6dd630f95151bc43229684dbea800ed239ab247` |
 | 130 | `products-data/forestal-mt-products-catalogue-46-skus.xlsx` | 33.8 KB | 2025-11-10T08:48:54Z | `648c90a4a43cb578cf008b1cde328336a484de63f8ecf9fc1b7a1a235e02c258` |
@@ -151,9 +151,9 @@ Total size: 55.5 MB
 | 140 | `projects/sds-tds-generator/README.md` | 6.4 KB | 2025-11-11T04:50:59Z | `bf7ed713afaddb58c742a46c8047c30be61d9cb7fdd432cf327d224a9f43a83f` |
 | 141 | `projects/sds-tds-generator/sds-tds-generator-blueprint.md` | 27.5 KB | 2025-11-11T05:13:13Z | `5459ab040333b9e8318d30f41734aca6a6437b5b2222224c27676016367c0edb` |
 | 142 | `projects/sds-tds-generator/source-files-manifest.md` | 13.7 KB | 2025-11-11T05:13:13Z | `4dab0e8b47c06c1d7fc9e574bfb34cbb378556476850478bd2ac0cad9df1f5e4` |
-| 143 | `README.md` | 5.4 KB | 2025-11-11T06:55:35Z | `b5a68ef74450014e0345d51c038cdf9d0773a4347498ea5dfb04ceb76c49cfaf` |
-| 144 | `REPOSITORY_INFO.md` | 3.1 KB | 2025-11-11T06:55:35Z | `209fc897b5ea26b48fc70b5e556ee73677038eb6d3f423ec60398b8e86d2e8cb` |
-| 145 | `requirements.txt` | 261 B | 2025-11-11T06:53:08Z | `deb05e68857c2504e55387861965a30c65dc1eba9985f0d57b118aa04c3e89dd` |
+| 143 | `README.md` | 5.3 KB | 2025-11-11T07:01:20Z | `5ea903428ba4d70af4a6586716cd22905869260c42a964bcfa579072a60b0247` |
+| 144 | `REPOSITORY_INFO.md` | 3.3 KB | 2025-11-11T07:01:20Z | `56e1cdef787b4878d323169ddc6093285410e8ccbf99738b01f2f49467464788` |
+| 145 | `requirements.txt` | 461 B | 2025-11-11T07:01:20Z | `e1005130be0bdecde136099fd8e4dc8a5b9b6d2dea67bcc853f47d9a94ac4856` |
 | 146 | `tests/__init__.py` | 33 B | 2025-11-11T04:25:20Z | `be48aee56b4c5914ea6602a6be317497b80d183dfdde8b8fa8d6356cb1cd897e` |
 | 147 | `tests/schemas/product-schema.json` | 3.5 KB | 2025-11-11T06:53:08Z | `61f85d87c8b783d48d0f9c93923a24540323235f9406b9c5cec2fa1816d6e8cd` |
 | 148 | `tests/test_data_integrity.py` | 3.5 KB | 2025-11-11T04:25:20Z | `5ccdc8ba25185481af67bfc4dbd8a077ef6d1915536dd5b626ecb2f131da3e2a` |

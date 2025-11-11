@@ -67,18 +67,29 @@ forestal-sds-tds-generator/          ← Implementation project (separate repo)
 git clone https://github.com/nerymurillohn/forestal-mt-suite.git
 cd forestal-mt-suite
 
-# Install Python dependencies
+# Install Python dependencies (exact versions pinned)
 python -m pip install -r requirements.txt
 
 # Verify installation
-python -c "import openpyxl; import pytest; print('Dependencies OK')"
+python -c "import openpyxl; import pytest; import jsonschema; print('Dependencies OK')"
 ```
 
 ### Dependencies
+
+**IMPORTANT:** All dependencies are pinned to exact versions to ensure reproducible builds and prevent breaking changes from upstream updates.
+
 ```
-openpyxl>=3.1.0    # Excel file parsing
-pytest>=8.0.0      # Testing framework
+openpyxl==3.1.5      # Excel file parsing
+pytest==8.3.3        # Testing framework
+jsonschema==4.23.0   # JSON Schema validation
 ```
+
+**Updating Dependencies:**
+1. Test thoroughly in development environment first
+2. Update version in requirements.txt
+3. Run full test suite: `pytest tests/ -v`
+4. Update AGENTS.md with new version
+5. Document any breaking changes in commit message
 
 ---
 

@@ -1,11 +1,15 @@
 # Forestal MT Suite — Python Dependencies
 # Install: pip install -r requirements.txt
+#
+# IMPORTANT: Versions are pinned exactly to ensure reproducible builds
+# and prevent breaking changes from upstream dependencies. Update with
+# caution and test thoroughly before changing versions.
 
 # Excel file parsing for product data automation
-openpyxl>=3.1.0
+openpyxl==3.1.5
 
 # Testing framework
-pytest>=8.0.0
+pytest==8.3.3
 
 # JSON Schema validation for semantic data integrity
-jsonschema>=4.17.0
+jsonschema==4.23.0
