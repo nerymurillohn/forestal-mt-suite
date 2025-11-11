@@ -49,7 +49,7 @@ This repository is optimized for consumption by AI assistants, automation system
 ```
 .
 ├── .githooks/ (dirs: 0, files: 1, size: 385 B)
-├── .github/ (dirs: 1, files: 2, size: 2.5 KB)
+├── .github/ (dirs: 1, files: 2, size: 4.4 KB)
 ├── assets/ (dirs: 22, files: 104, size: 54.7 MB)
 ├── docs/ (dirs: 3, files: 16, size: 48.5 KB)
 ├── products-data/ (dirs: 0, files: 9, size: 485.3 KB)
@@ -59,9 +59,9 @@ This repository is optimized for consumption by AI assistants, automation system
 ├── .gitattributes (592 B)
 ├── .gitignore (610 B)
 ├── .python-version (5 B)
-├── AGENTS.md (20.7 KB)
+├── AGENTS.md (21.4 KB)
 ├── CHANGELOG.md (3.2 KB)
-├── INVENTORY.md (25.1 KB)
+├── INVENTORY.md (25.5 KB)
 ├── README.md (5.0 KB)
 ├── REPOSITORY_INFO.md (3.0 KB)
 └── requirements.txt (461 B)
