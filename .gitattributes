@@ -1,0 +1,43 @@
+* text=auto eol=lf
+
+# Treat common text files explicitly (UTF-8 LF)
+*.md text
+*.txt text
+*.csv text
+*.json text
+*.yml text
+*.yaml text
+*.py text
+
+# Binary assets (no line ending normalization)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg binary
+*.pdf binary
+*.ai binary
+*.psd binary
+*.indd binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+*.7z binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+*.mp3 binary
+*.wav binary
+*.mp4 binary
+
+# Excel / Office documents
+*.xlsx binary
+*.xlsm binary
+*.xls binary
+*.docx binary
+*.pptx binary
+
