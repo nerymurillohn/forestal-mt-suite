@@ -413,6 +413,94 @@ pytest tests/test_data_integrity.py::test_no_orphaned_hero_images
 
 ---
 
+## Data Versioning
+
+### Semantic Versioning
+
+Product data follows **Semantic Versioning (MAJOR.MINOR.PATCH)**:
+
+**Current Version:** Check `products-data/data-manifest.json` → `version` field
+
+**Version Numbering:**
+- **MAJOR (1.0.0 → 2.0.0)**: Breaking changes
+  - SKU format changes
+  - Schema breaking changes
+  - Removal of products/collections
+- **MINOR (1.0.0 → 1.1.0)**: Backward-compatible additions
+  - New products added
+  - New collections added
+  - New optional fields
+- **PATCH (1.0.0 → 1.0.1)**: Backward-compatible fixes
+  - Price updates
+  - Typo corrections
+  - Metadata updates
+
+### Version Update Process
+
+When making data changes:
+
+1. **Determine version bump type** (MAJOR, MINOR, or PATCH)
+2. **Update `products-data/data-manifest.json`**:
+   ```json
+   {
+     "version": "1.1.0",
+     ...
+   }
+   ```
+3. **Add entry to `CHANGELOG.md`** documenting changes
+4. **Run full test suite**: `pytest tests/ -v`
+5. **Regenerate inventory**: `python tools/generate_inventory.py`
+6. **Commit with version tag**:
+   ```bash
+   git add products-data/ CHANGELOG.md
+   git commit -m "release: product data v1.1.0"
+   git tag -a v1.1.0 -m "Product data version 1.1.0"
+   git push origin main --tags
+   ```
+
+### CHANGELOG.md
+
+All data changes **must** be documented in `CHANGELOG.md` using [Keep a Changelog](https://keepachangelog.com/) format:
+
+```markdown
+## [1.1.0] - 2025-11-15
+
+### Added
+- 5 new products in Traditional Herbs collection
+
+### Changed
+- Updated retail pricing for Batana Oil products
+
+### Fixed
+- Corrected HS code for FMT-TH-WYB-2025
+```
+
+**Categories:**
+- **Added**: New products, collections, or fields
+- **Changed**: Modifications to existing data
+- **Deprecated**: Features being phased out
+- **Removed**: Products or fields removed
+- **Fixed**: Bug fixes or corrections
+- **Security**: Security-related changes
+
+### Version History
+
+View all versions:
+```bash
+# Git tags
+git tag -l "v*"
+
+# Changelog
+cat CHANGELOG.md
+```
+
+**Rollback to previous version:**
+```bash
+git checkout v1.0.0 -- products-data/
+```
+
+---
+
 ## Data Validation Rules
 
 ### JSON Schema Validation
