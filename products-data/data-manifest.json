@@ -1,0 +1,523 @@
+{
+  "repository": "forestal-mt-suite",
+  "owner": "nerymurillohn",
+  "type": "Brand and Product Data Repository",
+  "company": "Forestal MT (Forestal Murillo Tejada S. de R.L. de C.V.)",
+  "country": "Honduras",
+  "industry": "Artisan Furniture Manufacturing",
+  "generated_at": "2025-11-10T16:57:08Z",
+  "catalogue_file": {
+    "path": "products-data/forestal-mt-products-catalogue-46-skus.xlsx",
+    "sha256": "648c90a4a43cb578cf008b1cde328336a484de63f8ecf9fc1b7a1a235e02c258",
+    "row_count": 132,
+    "sku_count": 46
+  },
+  "skus": [
+    {
+      "sku": "FMT-BO-CO-2025",
+      "collection": "Batana Oil",
+      "product_name": "Batana Oil Hair Conditioner",
+      "hero_image": {
+        "path": "assets/products-images/batana-oil/hero/fmt-bo-co-2025-hero.png",
+        "bytes": 245725,
+        "sha256": "d6e4bfb942927a7006009ca44cca5b541ab4044bd76db3ab1b09e18bd61a0f41"
+      },
+      "doc_reference": "docs/collections/batana-oil.md"
+    },
+    {
+      "sku": "FMT-BO-RBO-2025",
+      "collection": "Batana Oil",
+      "product_name": "Raw Batana Oil",
+      "hero_image": {
+        "path": "assets/products-images/batana-oil/hero/fmt-bo-rbo-2025-hero.png",
+        "bytes": 569839,
+        "sha256": "a435095b6cfbf80ed85fdc10cc28a6988c455b23dd67c663a3bfbdbc690c33c7"
+      },
+      "doc_reference": "docs/collections/batana-oil.md"
+    },
+    {
+      "sku": "FMT-BO-SB-2025",
+      "collection": "Batana Oil",
+      "product_name": "Batana Oil True Soap Bar",
+      "hero_image": {
+        "path": "assets/products-images/batana-oil/hero/fmt-bo-sb-2025-hero.png",
+        "bytes": 453576,
+        "sha256": "1016b128e929abdefca4cb1cf9f7c70255993206a106f9f49569307b7e04896f"
+      },
+      "doc_reference": "docs/collections/batana-oil.md"
+    },
+    {
+      "sku": "FMT-BO-SH-2025",
+      "collection": "Batana Oil",
+      "product_name": "Batana Oil Hair Wash",
+      "hero_image": {
+        "path": "assets/products-images/batana-oil/hero/fmt-bo-sh-2025-hero.png",
+        "bytes": 239152,
+        "sha256": "6177cfbe42851b21ae4a555d485346bd8ac943e96a1dd5d070a4322dcee1c32a"
+      },
+      "doc_reference": "docs/collections/batana-oil.md"
+    },
+    {
+      "sku": "FMT-SBH-JM-2025",
+      "collection": "Stingless Bee Honey",
+      "product_name": "Jimerito",
+      "hero_image": {
+        "path": "assets/products-images/stingless-bee-honey/hero/fmt-sbh-jm-2025-hero.png",
+        "bytes": 375131,
+        "sha256": "cdcb2a37cc37da0338a061af3b4945f3d2d613ce19e8db99e7425a09b11d1e86"
+      },
+      "doc_reference": "docs/collections/stingless-bee-honey.md"
+    },
+    {
+      "sku": "FMT-TH-AL-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Gumbo Limbo Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-al-2025-hero.png",
+        "bytes": 1113273,
+        "sha256": "e0944a1fe4ec87e87851b8135188266fe68f603c4450c8c5965732c43e22f1e9"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-BL-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Amaranth Greens",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-bl-2025-hero.png",
+        "bytes": 1219784,
+        "sha256": "c0f8a7be11559e516076fe865c6ba7b8c1e26b198d103b1d47a260a6e9c8c8b7"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-BY-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Bay Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-by-2025-hero.png",
+        "bytes": 900774,
+        "sha256": "8f637b8dcef731e9f056caf195dc39268f1534a614d73da3f5722cafbc29bcdf"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-CA-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Bitter Melon - Cundeamor",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-ca-2025-hero.png",
+        "bytes": 897532,
+        "sha256": "220f26209309576e670276d62f45d8d1842cb3862de180aa1750683f54cf9f68"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-CC-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Cat's Claw",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-cc-2025-hero.png",
+        "bytes": 1020270,
+        "sha256": "44de58e73a500ef581baed1368fbef88d30e84467bfb036ff1365516ead8926e"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-CD-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Thuja - Cedar Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-cd-2025-hero.png",
+        "bytes": 1087779,
+        "sha256": "14d1bce7ac924bad6bc2af81202c030a6ad609e064d2fc6fc8fde91ffc192489"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-CF-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Cassia Pods",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-cf-2025-hero.png",
+        "bytes": 725846,
+        "sha256": "10952ed4a848b4fc4768e1512ffe76b03c9d7fd6e1b3a0f3ba1fd6c67336efae"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-CI-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Possum Grape - Cissus",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-ci-2025-hero.png",
+        "bytes": 1233875,
+        "sha256": "d5f80b4e5eda3698212dd0b5790a1edd9ad54a5314c0189c36c62281e5f95625"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-CR-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Cocolmeca Root",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-cr-2025-hero.png",
+        "bytes": 748272,
+        "sha256": "50cea7ead4a51e220669510a83817600040e85b983ca9344329b2245e9c51c32"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-CT-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Contribo",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-ct-2025-hero.png",
+        "bytes": 1459200,
+        "sha256": "0c416580358cd5b9cfec121ec7557847368391b1ef2d8f0e19bc70f65b76a575"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-CW-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Cow's Foot Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-cw-2025-hero.png",
+        "bytes": 999694,
+        "sha256": "85603817639da0df8552493300daee22cb68a6147cad793cf5bc0a0d8d3ca5f6"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-DB-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Dragon's Blood Bark",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-db-2025-hero.png",
+        "bytes": 880163,
+        "sha256": "ce7c9d26af8de8bafd7033cfb5b54faab53e5f2d7402e93c34003b348fad18d1"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-DF-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Duck Flower",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-df-2025-hero.png",
+        "bytes": 586486,
+        "sha256": "738fa07ca5b76d5841f11128412309da08e4befb02596a9519db7ccde9528d14"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-DO-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Sensitive Plant",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-do-2025-hero.png",
+        "bytes": 1045121,
+        "sha256": "96d5bea617e78be6ac7d4aca7f6bbc14c4c9ee0faec3d4c73788e1d59755b715"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-EU-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Eucalyptus Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-eu-2025-hero.png",
+        "bytes": 696859,
+        "sha256": "ada047afc2614d77eac4e8b4f34e4cfae2e9ffc75231f338800b570cf34b0d53"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-GL-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Guava Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-gl-2025-hero.png",
+        "bytes": 1071539,
+        "sha256": "bfe0729bbc7f3afafd81f43c9cb7cf1bc7070d77cfe50702016a475858e5a5d8"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-GLB-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Gumbo Limbo Bark",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-glb-2025-hero.png",
+        "bytes": 1345023,
+        "sha256": "dc96ae411824d2bef6073621eeb2581b9de36fc5c2a620337b02c73323686e39"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-GU-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Guaco Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-gu-2025-hero.png",
+        "bytes": 1095930,
+        "sha256": "38453fe70167f0ce094d6873191191b43f84e6826c35144d5deee8ff552c29e8"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-HF-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Hibiscus Flowers",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-hf-2025-hero.png",
+        "bytes": 1249926,
+        "sha256": "6c01afb11bdc8c4896487138df159606d01fe9a43315d10c31c972b4694c33f4"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-HG-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Quassia - Bitter Wood",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-hg-2025-hero.png",
+        "bytes": 854112,
+        "sha256": "9023f3688a7a2a9742e6acaaff54fe3fc8d66a01fcafe4d9b2b94235b900fd88"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-HT-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Blessed Thistle",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-ht-2025-hero.png",
+        "bytes": 1307115,
+        "sha256": "ad36cd138c71eb72967cc9675c79c64b234b554df7b65d9cd021940c02d95450"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-KR-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Kalawalla Root",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-kr-2025-hero.png",
+        "bytes": 737049,
+        "sha256": "e189583cba84bad25f5b5787f09b0088b9a5cf13ca6af438417b593b75fee8fd"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-LG-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Lemongrass",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-lg-2025-hero.png",
+        "bytes": 853595,
+        "sha256": "d05112f5802dc57c09404d06d0da9e1899d827c8bf075c9b616c11a384bbf46f"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-LV-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Leaf of Life - Miracle Leaf",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-lv-2025-hero.png",
+        "bytes": 1033144,
+        "sha256": "ec3be3d5bd1fd8408d58bcf001235cb9ccc36fb24c279b4c1cded07b9c22780c"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-MA-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Taro - Malanga Leaf",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-ma-2025-hero.png",
+        "bytes": 889296,
+        "sha256": "3f1c16e48e568ddcdd9e5c63a4db7d047738840ef86d5965b23d36fa1074a9c8"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-ML-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Mango Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-ml-2025-hero.png",
+        "bytes": 873884,
+        "sha256": "f8042d792fa3835879dd3ae54cc3128e1de0192d018bdabc94bcaad3ff9c53f4"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-MO-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Moringa Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-mo-2025-hero.png",
+        "bytes": 746013,
+        "sha256": "6be0c6de7fd8af4ba457c057b97d48c633a062d4b338434a33d734c8a37de2bb"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-MU-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Muicle Herb",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-mu-2025-hero.png",
+        "bytes": 1267403,
+        "sha256": "3329d46398b3a98e09a3353402d5724f8b36c32bac7a2110557c980e00306fe0"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-NL-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Nettle Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-nl-2025-hero.png",
+        "bytes": 909209,
+        "sha256": "e7af7eae6ba737c092f4ec844e57faff33e9769927a3d9def248108da948d3de"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-NM-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Neem Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-nm-2025-hero.png",
+        "bytes": 1205404,
+        "sha256": "0c5ae8d5a748265a4b15a063da3639ea4422eed232d7a02451825b07f486fcd5"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-PC-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Pau D'Arco Bark",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-pc-2025-hero.png",
+        "bytes": 709951,
+        "sha256": "afdd6522308f6a442e69952dd8a812d27940c94636d226bc8eba36862d37a6ae"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-PG-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Palo Guaco",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-pg-2025-hero.png",
+        "bytes": 845864,
+        "sha256": "8a42ea38e4d30e1be9718e13842928f460b26c0d95260a27824d3e903c8d7c0e"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-PL-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Plantain Leaf",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-pl-2025-hero.png",
+        "bytes": 810614,
+        "sha256": "e8f77d2050a4c67c38ac0e03c5699a0cfb0182a2056aa4c760e3f1deada4f6d0"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-PN-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Pine Needles",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-pn-2025-hero.png",
+        "bytes": 1328399,
+        "sha256": "5481c7e941ac712a0b873770f35fa4b6b2e53510162dd6aeeb76e3195de408b8"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-PS-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Palo Santo",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-ps-2025-hero.png",
+        "bytes": 809839,
+        "sha256": "c936ce91135898171d497fb487136c1283abffefa2d64125a3cbb0a37b84073a"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-SL-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Soursop Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-sl-2025-hero.png",
+        "bytes": 791602,
+        "sha256": "01a90ed39b0fcca396f66ace81795bd2ebad41d7524a1b4555f82e01638875aa"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-SN-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Snake Plant",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-sn-2025-hero.png",
+        "bytes": 1482717,
+        "sha256": "c67572aba29fef19c2783870cdb737401f8625e6bb7cbfaf8a25653337b1c64b"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-SP-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Stonebreaker",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-sp-2025-hero.png",
+        "bytes": 1287967,
+        "sha256": "fc8a1d5f83cd07116f485d511e47be19807f3627954275e4887a4c69cfe3ee27"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-SR-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Sarsaparilla",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-sr-2025-hero.png",
+        "bytes": 689504,
+        "sha256": "479cd7a633489bf9050f72ebcfbb918fd603b54928591b418da98f7bb197a673"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-TL-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Linden - Tilia",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-tl-2025-hero.png",
+        "bytes": 916470,
+        "sha256": "d7e2dfa9d9122431573ed65b16e5f98667adc9ea7c69ec2bdb914d8e78436619"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    },
+    {
+      "sku": "FMT-TH-TT-2025",
+      "collection": "Traditional Herbs",
+      "product_name": "Trumpet Tree Leaves",
+      "hero_image": {
+        "path": "assets/products-images/traditional-herbs/hero/fmt-th-tt-2025-hero.png",
+        "bytes": 873099,
+        "sha256": "6540aa18747e1135ad456102283937499b9aad9b8e5e15336eae97dff5cd6fa1"
+      },
+      "doc_reference": "docs/collections/traditional-herbs.md"
+    }
+  ]
+}

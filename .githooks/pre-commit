@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "[hooks] Running Forestal MT data exports and integrity checks..."
+python tools/build_product_data.py
+python tools/verify_product_assets.py
+python tools/generate_inventory.py
+
+if ! git diff --quiet --exit-code -- .; then
+  echo ""
+  echo "[hooks] Repository changed during automation. Stage regenerated files and re-run commit."
+  exit 1
+fi

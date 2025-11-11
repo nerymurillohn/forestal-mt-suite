@@ -1,0 +1,2432 @@
+[
+  {
+    "sku": "FMT-BO-CO-2025",
+    "channel": "retail",
+    "presentation": "250 ml",
+    "presentation_type": "bottle with dispenser pump",
+    "measurement": 250,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 24.99
+  },
+  {
+    "sku": "FMT-BO-CO-2025",
+    "channel": "retail",
+    "presentation": "500 ml",
+    "presentation_type": "bottle with dispenser pump",
+    "measurement": 500,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 34.99
+  },
+  {
+    "sku": "FMT-BO-RBO-2025",
+    "channel": "retail",
+    "presentation": "1 gal",
+    "presentation_type": "plastic us gallon (f - rectangular)",
+    "measurement": 1,
+    "unit": "gal",
+    "currency": "USD",
+    "price": 220
+  },
+  {
+    "sku": "FMT-BO-RBO-2025",
+    "channel": "retail",
+    "presentation": "120 ml",
+    "presentation_type": "straight-sided clear plastic jar",
+    "measurement": 120,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 29.99
+  },
+  {
+    "sku": "FMT-BO-RBO-2025",
+    "channel": "retail",
+    "presentation": "60 ml",
+    "presentation_type": "straight-sided clear plastic jar",
+    "measurement": 60,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 19.99
+  },
+  {
+    "sku": "FMT-BO-SB-2025",
+    "channel": "retail",
+    "presentation": "100 g",
+    "presentation_type": "soap bar",
+    "measurement": 100,
+    "unit": "g",
+    "currency": "USD",
+    "price": 19.99
+  },
+  {
+    "sku": "FMT-BO-SH-2025",
+    "channel": "retail",
+    "presentation": "250 ml",
+    "presentation_type": "bottle with dispenser pump",
+    "measurement": 250,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 24.99
+  },
+  {
+    "sku": "FMT-BO-SH-2025",
+    "channel": "retail",
+    "presentation": "500 ml",
+    "presentation_type": "bottle with dispenser pump",
+    "measurement": 500,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 34.99
+  },
+  {
+    "sku": "FMT-SBH-JM-2025",
+    "channel": "retail",
+    "presentation": "250 ml",
+    "presentation_type": "bottle",
+    "measurement": 250,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 219.99
+  },
+  {
+    "sku": "FMT-SBH-JM-2025",
+    "channel": "retail",
+    "presentation": "30 ml",
+    "presentation_type": "dropper bottle",
+    "measurement": 30,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 49.99
+  },
+  {
+    "sku": "FMT-SBH-JM-2025",
+    "channel": "retail",
+    "presentation": "750 ml",
+    "presentation_type": "bottle",
+    "measurement": 750,
+    "unit": "ml",
+    "currency": "USD",
+    "price": 349.99
+  },
+  {
+    "sku": "FMT-TH-AL-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 50
+  },
+  {
+    "sku": "FMT-TH-AL-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 100
+  },
+  {
+    "sku": "FMT-TH-AL-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 30
+  },
+  {
+    "sku": "FMT-TH-BL-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 22
+  },
+  {
+    "sku": "FMT-TH-BL-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 44
+  },
+  {
+    "sku": "FMT-TH-BL-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 15
+  },
+  {
+    "sku": "FMT-TH-BY-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-BY-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 32
+  },
+  {
+    "sku": "FMT-TH-BY-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 10
+  },
+  {
+    "sku": "FMT-TH-CA-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 16
+  },
+  {
+    "sku": "FMT-TH-CA-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 32
+  },
+  {
+    "sku": "FMT-TH-CA-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 10
+  },
+  {
+    "sku": "FMT-TH-CC-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 28
+  },
+  {
+    "sku": "FMT-TH-CC-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 50
+  },
+  {
+    "sku": "FMT-TH-CC-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-CD-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 32
+  },
+  {
+    "sku": "FMT-TH-CD-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 66
+  },
+  {
+    "sku": "FMT-TH-CD-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-CF-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 14
+  },
+  {
+    "sku": "FMT-TH-CF-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 28
+  },
+  {
+    "sku": "FMT-TH-CF-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 8
+  },
+  {
+    "sku": "FMT-TH-CI-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 16
+  },
+  {
+    "sku": "FMT-TH-CI-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 32
+  },
+  {
+    "sku": "FMT-TH-CI-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 10
+  },
+  {
+    "sku": "FMT-TH-CR-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 32
+  },
+  {
+    "sku": "FMT-TH-CR-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 60
+  },
+  {
+    "sku": "FMT-TH-CR-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-CT-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 30
+  },
+  {
+    "sku": "FMT-TH-CT-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 60
+  },
+  {
+    "sku": "FMT-TH-CT-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-CW-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-CW-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 36
+  },
+  {
+    "sku": "FMT-TH-CW-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 10
+  },
+  {
+    "sku": "FMT-TH-DB-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 36
+  },
+  {
+    "sku": "FMT-TH-DB-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 72
+  },
+  {
+    "sku": "FMT-TH-DB-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 22
+  },
+  {
+    "sku": "FMT-TH-DF-2025",
+    "channel": "retail",
+    "presentation": "1 unit",
+    "presentation_type": "unit",
+    "measurement": 1,
+    "unit": "unit",
+    "currency": "USD",
+    "price": 35
+  },
+  {
+    "sku": "FMT-TH-DF-2025",
+    "channel": "retail",
+    "presentation": "2 units",
+    "presentation_type": "unit",
+    "measurement": 2,
+    "unit": "units",
+    "currency": "USD",
+    "price": 60
+  },
+  {
+    "sku": "FMT-TH-DO-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-DO-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 38
+  },
+  {
+    "sku": "FMT-TH-DO-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 14
+  },
+  {
+    "sku": "FMT-TH-EU-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-EU-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 35
+  },
+  {
+    "sku": "FMT-TH-EU-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 14
+  },
+  {
+    "sku": "FMT-TH-GL-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 25
+  },
+  {
+    "sku": "FMT-TH-GL-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 60
+  },
+  {
+    "sku": "FMT-TH-GL-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 16
+  },
+  {
+    "sku": "FMT-TH-GLB-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 40
+  },
+  {
+    "sku": "FMT-TH-GLB-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 80
+  },
+  {
+    "sku": "FMT-TH-GLB-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 24
+  },
+  {
+    "sku": "FMT-TH-GU-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-GU-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 35
+  },
+  {
+    "sku": "FMT-TH-GU-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 14
+  },
+  {
+    "sku": "FMT-TH-HF-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-HF-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 36
+  },
+  {
+    "sku": "FMT-TH-HF-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 10
+  },
+  {
+    "sku": "FMT-TH-HG-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-HG-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 40
+  },
+  {
+    "sku": "FMT-TH-HG-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 14
+  },
+  {
+    "sku": "FMT-TH-HT-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 24
+  },
+  {
+    "sku": "FMT-TH-HT-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 45
+  },
+  {
+    "sku": "FMT-TH-HT-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 17
+  },
+  {
+    "sku": "FMT-TH-KR-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 38
+  },
+  {
+    "sku": "FMT-TH-KR-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 70
+  },
+  {
+    "sku": "FMT-TH-KR-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 24
+  },
+  {
+    "sku": "FMT-TH-LG-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-LG-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 34
+  },
+  {
+    "sku": "FMT-TH-LG-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 15
+  },
+  {
+    "sku": "FMT-TH-LV-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 33
+  },
+  {
+    "sku": "FMT-TH-LV-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 66
+  },
+  {
+    "sku": "FMT-TH-LV-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-MA-2025",
+    "channel": "retail",
+    "presentation": "1 unit",
+    "presentation_type": "unit",
+    "measurement": 1,
+    "unit": "unit",
+    "currency": "USD",
+    "price": 10
+  },
+  {
+    "sku": "FMT-TH-MA-2025",
+    "channel": "retail",
+    "presentation": "2 units",
+    "presentation_type": "unit",
+    "measurement": 2,
+    "unit": "units",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-ML-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 16
+  },
+  {
+    "sku": "FMT-TH-ML-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 32
+  },
+  {
+    "sku": "FMT-TH-ML-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 10
+  },
+  {
+    "sku": "FMT-TH-MO-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 22
+  },
+  {
+    "sku": "FMT-TH-MO-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 44
+  },
+  {
+    "sku": "FMT-TH-MO-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 15
+  },
+  {
+    "sku": "FMT-TH-MU-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-MU-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 36
+  },
+  {
+    "sku": "FMT-TH-MU-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 12
+  },
+  {
+    "sku": "FMT-TH-NL-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 19
+  },
+  {
+    "sku": "FMT-TH-NL-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 38
+  },
+  {
+    "sku": "FMT-TH-NL-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 13
+  },
+  {
+    "sku": "FMT-TH-NM-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-NM-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 40
+  },
+  {
+    "sku": "FMT-TH-NM-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 14
+  },
+  {
+    "sku": "FMT-TH-PC-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 40
+  },
+  {
+    "sku": "FMT-TH-PC-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 88
+  },
+  {
+    "sku": "FMT-TH-PC-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 28
+  },
+  {
+    "sku": "FMT-TH-PG-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 25
+  },
+  {
+    "sku": "FMT-TH-PG-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 50
+  },
+  {
+    "sku": "FMT-TH-PG-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-PL-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 22
+  },
+  {
+    "sku": "FMT-TH-PL-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 44
+  },
+  {
+    "sku": "FMT-TH-PL-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 15
+  },
+  {
+    "sku": "FMT-TH-PN-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 30
+  },
+  {
+    "sku": "FMT-TH-PN-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 60
+  },
+  {
+    "sku": "FMT-TH-PN-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 20
+  },
+  {
+    "sku": "FMT-TH-PS-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 15
+  },
+  {
+    "sku": "FMT-TH-PS-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 30
+  },
+  {
+    "sku": "FMT-TH-PS-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 9
+  },
+  {
+    "sku": "FMT-TH-SL-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 25
+  },
+  {
+    "sku": "FMT-TH-SL-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 60
+  },
+  {
+    "sku": "FMT-TH-SL-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 16
+  },
+  {
+    "sku": "FMT-TH-SN-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 15
+  },
+  {
+    "sku": "FMT-TH-SN-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 30
+  },
+  {
+    "sku": "FMT-TH-SN-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 9
+  },
+  {
+    "sku": "FMT-TH-SP-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 50
+  },
+  {
+    "sku": "FMT-TH-SP-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 100
+  },
+  {
+    "sku": "FMT-TH-SP-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 30
+  },
+  {
+    "sku": "FMT-TH-SR-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 28
+  },
+  {
+    "sku": "FMT-TH-SR-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 50
+  },
+  {
+    "sku": "FMT-TH-SR-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 18
+  },
+  {
+    "sku": "FMT-TH-TL-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 26
+  },
+  {
+    "sku": "FMT-TH-TL-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 52
+  },
+  {
+    "sku": "FMT-TH-TL-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 16
+  },
+  {
+    "sku": "FMT-TH-TT-2025",
+    "channel": "retail",
+    "presentation": "113 g",
+    "presentation_type": "bag",
+    "measurement": 113,
+    "unit": "g",
+    "currency": "USD",
+    "price": 36
+  },
+  {
+    "sku": "FMT-TH-TT-2025",
+    "channel": "retail",
+    "presentation": "454 g",
+    "presentation_type": "bag",
+    "measurement": 454,
+    "unit": "g",
+    "currency": "USD",
+    "price": 68
+  },
+  {
+    "sku": "FMT-TH-TT-2025",
+    "channel": "retail",
+    "presentation": "57 g",
+    "presentation_type": "bag",
+    "measurement": 57,
+    "unit": "g",
+    "currency": "USD",
+    "price": 25
+  },
+  {
+    "sku": "FMT-BO-CO-2025",
+    "channel": "wholesale",
+    "presentation": "1 gal",
+    "presentation_type": "plastic us gallon (f - rectangular)",
+    "measurement": 1,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-CO-2025",
+    "channel": "wholesale",
+    "presentation": "120 gal",
+    "presentation_type": "drum",
+    "measurement": 120,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-CO-2025",
+    "channel": "wholesale",
+    "presentation": "195 gal",
+    "presentation_type": "drum",
+    "measurement": 195,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-CO-2025",
+    "channel": "wholesale",
+    "presentation": "270 gal",
+    "presentation_type": "IBC container",
+    "measurement": 270,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-CO-2025",
+    "channel": "wholesale",
+    "presentation": "5 gal",
+    "presentation_type": "plastic pail/bucket",
+    "measurement": 5,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-CO-2025",
+    "channel": "wholesale",
+    "presentation": "55 gal",
+    "presentation_type": "drum",
+    "measurement": 55,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-RBO-2025",
+    "channel": "wholesale",
+    "presentation": "180 kg",
+    "presentation_type": "drum",
+    "measurement": 180,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-RBO-2025",
+    "channel": "wholesale",
+    "presentation": "400 kg",
+    "presentation_type": "drum",
+    "measurement": 400,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-RBO-2025",
+    "channel": "wholesale",
+    "presentation": "5 gal",
+    "presentation_type": "plastic pail/bucket",
+    "measurement": 5,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-RBO-2025",
+    "channel": "wholesale",
+    "presentation": "650 kg",
+    "presentation_type": "drum",
+    "measurement": 650,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-RBO-2025",
+    "channel": "wholesale",
+    "presentation": "900 kg",
+    "presentation_type": "IBC container",
+    "measurement": 900,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SB-2025",
+    "channel": "wholesale",
+    "presentation": "100 g",
+    "presentation_type": "soap bar",
+    "measurement": 100,
+    "unit": "g",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SB-2025",
+    "channel": "wholesale",
+    "presentation": "100 g",
+    "presentation_type": "soap bar",
+    "measurement": 100,
+    "unit": "g",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SB-2025",
+    "channel": "wholesale",
+    "presentation": "100 g",
+    "presentation_type": "soap bar",
+    "measurement": 100,
+    "unit": "g",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SB-2025",
+    "channel": "wholesale",
+    "presentation": "100 g",
+    "presentation_type": "soap bar",
+    "measurement": 100,
+    "unit": "g",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SH-2025",
+    "channel": "wholesale",
+    "presentation": "1 gal",
+    "presentation_type": "plastic us gallon (f - rectangular)",
+    "measurement": 1,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SH-2025",
+    "channel": "wholesale",
+    "presentation": "120 gal",
+    "presentation_type": "drum",
+    "measurement": 120,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SH-2025",
+    "channel": "wholesale",
+    "presentation": "195 gal",
+    "presentation_type": "drum",
+    "measurement": 195,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SH-2025",
+    "channel": "wholesale",
+    "presentation": "270 gal",
+    "presentation_type": "IBC container",
+    "measurement": 270,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SH-2025",
+    "channel": "wholesale",
+    "presentation": "5 gal",
+    "presentation_type": "plastic pail/bucket",
+    "measurement": 5,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-BO-SH-2025",
+    "channel": "wholesale",
+    "presentation": "55 gal",
+    "presentation_type": "drum",
+    "measurement": 55,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-SBH-JM-2025",
+    "channel": "wholesale",
+    "presentation": "1 gal",
+    "presentation_type": "plastic us gallon (f - rectangular)",
+    "measurement": 1,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-SBH-JM-2025",
+    "channel": "wholesale",
+    "presentation": "25 gal",
+    "presentation_type": "drum",
+    "measurement": 25,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-SBH-JM-2025",
+    "channel": "wholesale",
+    "presentation": "5 gal",
+    "presentation_type": "plastic pail/bucket",
+    "measurement": 5,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-SBH-JM-2025",
+    "channel": "wholesale",
+    "presentation": "55 gal",
+    "presentation_type": "drum",
+    "measurement": 55,
+    "unit": "gal",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-AL-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-AL-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-BL-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-BL-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-BY-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-BY-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CA-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CA-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CC-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CC-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CD-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CD-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CF-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CF-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CI-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CI-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CR-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CR-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CT-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CT-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CW-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-CW-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-DB-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-DB-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-DF-2025",
+    "channel": "wholesale",
+    "presentation": "100 units",
+    "presentation_type": "unit",
+    "measurement": 100,
+    "unit": "units",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-DF-2025",
+    "channel": "wholesale",
+    "presentation": "250 units",
+    "presentation_type": "unit",
+    "measurement": 250,
+    "unit": "units",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-DF-2025",
+    "channel": "wholesale",
+    "presentation": "50 units",
+    "presentation_type": "unit",
+    "measurement": 50,
+    "unit": "units",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-DF-2025",
+    "channel": "wholesale",
+    "presentation": "500 units",
+    "presentation_type": "unit",
+    "measurement": 500,
+    "unit": "units",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-DO-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-DO-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-EU-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-EU-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-GL-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-GL-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-GLB-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-GLB-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-GU-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-GU-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-HF-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-HF-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-HG-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-HG-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-HT-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-HT-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-KR-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-KR-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-LG-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-LG-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-LV-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-LV-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-MA-2025",
+    "channel": "wholesale",
+    "presentation": "100 units",
+    "presentation_type": "unit",
+    "measurement": 100,
+    "unit": "units",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-MA-2025",
+    "channel": "wholesale",
+    "presentation": "250 units",
+    "presentation_type": "unit",
+    "measurement": 250,
+    "unit": "units",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-MA-2025",
+    "channel": "wholesale",
+    "presentation": "50 units",
+    "presentation_type": "unit",
+    "measurement": 50,
+    "unit": "units",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-MA-2025",
+    "channel": "wholesale",
+    "presentation": "500 units",
+    "presentation_type": "unit",
+    "measurement": 500,
+    "unit": "units",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-ML-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-ML-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-MO-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-MO-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-MU-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-MU-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-NL-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-NL-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-NM-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-NM-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PC-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PC-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PG-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PG-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PL-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PL-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PN-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PN-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PS-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-PS-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-SL-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-SL-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-SN-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-SN-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-SP-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-SP-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-SR-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-SR-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-TL-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-TL-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-TT-2025",
+    "channel": "wholesale",
+    "presentation": "11.3 kg",
+    "presentation_type": "bag",
+    "measurement": 11.3,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  },
+  {
+    "sku": "FMT-TH-TT-2025",
+    "channel": "wholesale",
+    "presentation": "4.5 kg",
+    "presentation_type": "bag",
+    "measurement": 4.5,
+    "unit": "kg",
+    "currency": "USD",
+    "price": "Contact for Quotation"
+  }
+]
