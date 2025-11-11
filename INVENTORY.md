@@ -1,6 +1,6 @@
 # Repository Inventory
 
-Generated: 2025-11-11T05:29:39Z
+Generated: 2025-11-11T05:56:01Z
 Total directories: 36
 Total files: 151
 Total size: 55.4 MB
@@ -15,7 +15,7 @@ Total size: 55.4 MB
 | 4 | `.github/workflows/validate-repo.yml` | 1.2 KB | 2025-11-11T04:13:22Z | `37f9ce7ac3b44300d494d18bccf689127525e6ecc6e7ad74736641423515b575` |
 | 5 | `.gitignore` | 610 B | 2025-11-11T04:00:08Z | `3f3652b93afa70689d436c7458e3fb39f1a789d41e3b40d478f71cc48b82cbf2` |
 | 6 | `.python-version` | 5 B | 2025-11-11T04:06:34Z | `49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93` |
-| 7 | `AGENTS.md` | 15.7 KB | 2025-11-11T05:29:28Z | `1baf16422003269546212626bee2417939bb9edd5c4a26e9a54bbbffbc722048` |
+| 7 | `AGENTS.md` | 15.7 KB | 2025-11-11T05:55:41Z | `7e57f2aa2b9398127040300acff16d1c7e9e4be54f549e678fc3829bf905bc57` |
 | 8 | `assets/fonts/fonts.css` | 2.2 KB | 2025-11-11T04:00:08Z | `286a5b1ad6a9368cc31d0f2bf6bc866def99b9d912c9bb6dcab1050069723b41` |
 | 9 | `assets/fonts/README.md` | 1.5 KB | 2025-11-11T04:00:08Z | `d393942a2cef8254348d75e21e671cb2b4b78d56caece366232867cf50586465` |
 | 10 | `assets/fonts/source/Cinzel/Cinzel-VariableFont_wght.ttf` | 123.4 KB | 2025-11-11T04:00:08Z | `3192c4e40421bf2824f40f5b0eba1047eacfa7b08d6e8ba6941b803e701a29bf` |
@@ -120,23 +120,23 @@ Total size: 55.4 MB
 | 109 | `assets/templates/official-letterhead/docx/forestal-mt-letterhead.docx` | 2.4 MB | 2025-11-11T04:00:08Z | `e83c2badcc86f6d8484ffbc9e1b865a35ac87993d81147322fb93f6d1f88d588` |
 | 110 | `assets/templates/official-letterhead/pdf/forestal-mt-letterhead.pdf` | 68.1 KB | 2025-11-11T04:00:08Z | `06a2223ac9cb1719fbbddfd1c4022fb9c8dc8c86cef04a000e0bb292b394b118` |
 | 111 | `assets/templates/official-letterhead/README.md` | 1.6 KB | 2025-11-11T04:00:08Z | `191cb1417e9170dbfa3c19cbf0af09a7d70439c74a84c29448330f76732a9709` |
-| 112 | `docs/brand/colors.md` | 6.0 KB | 2025-11-11T04:00:08Z | `505dae1d349f18386e8b8accad9627f1db26bc88194d861aeaa3879010a05a9d` |
-| 113 | `docs/brand/contacts.md` | 1.0 KB | 2025-11-11T04:00:08Z | `2b6b2f1e35fd35361a3f5fbf6ac487cec6326d5986ea5215ebbde2e19dcdf4d1` |
-| 114 | `docs/brand/founders.md` | 741 B | 2025-11-11T04:00:08Z | `5100a0e409fa33c17c530b1a40ff7c2f7a6962f0b9402871a02c9038eee7b720` |
-| 115 | `docs/brand/history.md` | 2.5 KB | 2025-11-11T04:00:08Z | `21309c22b95aab176d95c31c1ef748f45c88807bafbf36a2b36276246d73ba79` |
-| 116 | `docs/brand/logo.md` | 4.1 KB | 2025-11-11T04:00:08Z | `5f49edd8693240c861f32e32ea96a43f3d8743525d4ac91e2bd8b4e29efbcb97` |
-| 117 | `docs/brand/overview.md` | 3.7 KB | 2025-11-11T04:00:08Z | `70787d4de1521a55733c1bafa9f3177feda432f0f221bed90bba2cf5e34b5a9b` |
-| 118 | `docs/brand/typography.md` | 5.4 KB | 2025-11-11T04:00:08Z | `94c356cf6108e40e4865782e462e5d7aebab2595b4806cc8b8010ca32019a5c7` |
-| 119 | `docs/brand/voice.md` | 9.1 KB | 2025-11-11T04:00:08Z | `62b007df84dd285782543a1ba85589aa3ab3f4456d37cf5b064a9190110820b5` |
-| 120 | `docs/collections/batana-oil.md` | 1.8 KB | 2025-11-11T04:00:08Z | `defea8727b2fbff0c0f215b5bba8302551272286912670c90c373fb17d1ea78a` |
-| 121 | `docs/collections/stingless-bee-honey.md` | 1.6 KB | 2025-11-11T04:00:08Z | `4b0146f4861c5a3ee2da4c8ce3ec8ca1d65bd90ab3e2fd5d44e6829f67061e9d` |
-| 122 | `docs/collections/traditional-herbs.md` | 5.4 KB | 2025-11-11T04:00:08Z | `bdeda0099a0519a44c9522c60819fa8cfb49dc8c95a4ec1165fa25cd453207f3` |
-| 123 | `docs/company/authenticity-chain.md` | 1.0 KB | 2025-11-11T04:00:08Z | `13ec7964db89beafefc738690ede0bd564cfe4f289f8ef5898e053706b58881b` |
-| 124 | `docs/company/business-hours.md` | 848 B | 2025-11-11T04:00:08Z | `2b11fd7da7d13ad32271ba30c94546db842585e0e1bd8d799c1b1ecf2827979c` |
-| 125 | `docs/company/company-profile.md` | 730 B | 2025-11-11T04:00:08Z | `c70c76f5dd8f706145cb2d575e74e1947b4152614b37b5d9d35426b90925be47` |
-| 126 | `docs/company/returns-policy.md` | 2.2 KB | 2025-11-11T04:00:08Z | `ece6bb9556b91af8b80ef32516bf9939abc8bc8911d3f1694d96b98fe8f53adf` |
-| 127 | `docs/company/shipping.md` | 2.5 KB | 2025-11-11T04:00:08Z | `60c1166787e56740d267c6f33df112264d26763a9cab8ecb89be5513a8fedbfa` |
-| 128 | `INVENTORY.md` | 24.8 KB | 2025-11-11T05:18:01Z | `2602951c1e5fc94b8fee03683550183f72e0b84b6cec62c8f459d8b326ea4301` |
+| 112 | `docs/brand/colors.md` | 6.0 KB | 2025-11-11T05:55:16Z | `6b5ec7556c9e726181d085b414701c6532e24931745efeac674469a289b6e0cf` |
+| 113 | `docs/brand/contacts.md` | 1.0 KB | 2025-11-11T05:55:15Z | `fb0ce0d71ac6d19a201c00826ade511d21b4c148391245679876988fbfcce18b` |
+| 114 | `docs/brand/founders.md` | 740 B | 2025-11-11T05:55:16Z | `ef14247502a76d6867651be7a98f31b02c32a0ac93c9f94a11563aaa647c4247` |
+| 115 | `docs/brand/history.md` | 2.5 KB | 2025-11-11T05:55:14Z | `000aaf8a3996ce3892b65f4f775b9c0ddc7fc39a3d88c8506c4771776b6f0d8a` |
+| 116 | `docs/brand/logo.md` | 4.1 KB | 2025-11-11T05:55:15Z | `e49426341aba5f2a8ef5eab6e8aae6ab7a7cd726ab097922ea6db41b2725245e` |
+| 117 | `docs/brand/overview.md` | 3.7 KB | 2025-11-11T05:55:15Z | `58401e8938f1639f622063ce4a624539291c4a2608109c4e06a0a3ade8c6dd0b` |
+| 118 | `docs/brand/typography.md` | 5.4 KB | 2025-11-11T05:55:15Z | `7bfc87d136d3d6c4acc4247287b72ba95d1e14897043c38acd24047e7c899605` |
+| 119 | `docs/brand/voice.md` | 9.1 KB | 2025-11-11T05:55:16Z | `c9157a1b1d0a33b517c4825ef09d8cf29d73f637ec90f0768dd8c6dfb570e247` |
+| 120 | `docs/collections/batana-oil.md` | 1.8 KB | 2025-11-11T05:54:50Z | `aa43e306dc7a2a0aa9729f039907bf4ea5164b2ea3fb4054a841681451bef195` |
+| 121 | `docs/collections/stingless-bee-honey.md` | 1.6 KB | 2025-11-11T05:54:50Z | `7e5322d80d755410406426637987e822f114151bf1f84083618e1cfab361fa3a` |
+| 122 | `docs/collections/traditional-herbs.md` | 5.4 KB | 2025-11-11T05:54:51Z | `d2d775ef0746c914e2ae1ab1f2763b26702f7ecffc98f2ec6d4919c7cd37b848` |
+| 123 | `docs/company/authenticity-chain.md` | 1.0 KB | 2025-11-11T05:54:50Z | `c8e79db3add05b51f5c830782346a5efbb310ff8ad945e15a0a81fe09223d6f0` |
+| 124 | `docs/company/business-hours.md` | 847 B | 2025-11-11T05:54:50Z | `ee0621b4a249a37e31bd0176025d2e1e37dee795ee37767ad6058ffb55bb0cef` |
+| 125 | `docs/company/company-profile.md` | 729 B | 2025-11-11T05:54:26Z | `11c77f92c4aa5ac1d9fb1eda0df6b6a894d5c560c4d2ad637a6de63c3a006346` |
+| 126 | `docs/company/returns-policy.md` | 2.2 KB | 2025-11-11T05:54:49Z | `b8b09b9806baf46f462cdef9be338fda8bdcb9475b80da2a97592946a47da3e3` |
+| 127 | `docs/company/shipping.md` | 2.5 KB | 2025-11-11T05:54:49Z | `2ffe1bdc9ca9ae9e0c71c3c2fe40b85a2198b187adaecc7c30a6fc8045cc1bc3` |
+| 128 | `INVENTORY.md` | 25.0 KB | 2025-11-11T05:32:18Z | `0aa70c8e82d0299cfe3a2027bf5f9a2a7858b2a892f3b9809d04e0a015ab7bce` |
 | 129 | `products-data/catalogue.json` | 195.3 KB | 2025-11-11T04:12:37Z | `d2167e434c306762c1c0446e1d84c25ad80ddf55902ba43783b19aa9f6401615` |
 | 130 | `products-data/data-manifest.json` | 19.3 KB | 2025-11-11T04:00:08Z | `e72043181bab74b5ef6e4132ba4a305ea367ae109c6a541bd675b84c21aef55c` |
 | 131 | `products-data/forestal-mt-products-catalogue-46-skus.xlsx` | 33.8 KB | 2025-11-11T04:00:08Z | `648c90a4a43cb578cf008b1cde328336a484de63f8ecf9fc1b7a1a235e02c258` |
@@ -152,8 +152,8 @@ Total size: 55.4 MB
 | 141 | `projects/sds-tds-generator/README.md` | 6.4 KB | 2025-11-11T04:38:14Z | `bf7ed713afaddb58c742a46c8047c30be61d9cb7fdd432cf327d224a9f43a83f` |
 | 142 | `projects/sds-tds-generator/sds-tds-generator-blueprint.md` | 27.5 KB | 2025-11-11T05:11:27Z | `5459ab040333b9e8318d30f41734aca6a6437b5b2222224c27676016367c0edb` |
 | 143 | `projects/sds-tds-generator/source-files-manifest.md` | 13.7 KB | 2025-11-11T05:11:27Z | `4dab0e8b47c06c1d7fc9e574bfb34cbb378556476850478bd2ac0cad9df1f5e4` |
-| 144 | `README.md` | 5.0 KB | 2025-11-11T05:18:01Z | `d950a9bab2b9d1e50947c33cd9331aef94b54220ba65744055d601f86079d0a7` |
-| 145 | `REPOSITORY_INFO.md` | 3.0 KB | 2025-11-11T05:18:01Z | `185a0cb6fe352899db4f984f070d5fcdbdf6007d990658d4c9a31cf96f346761` |
+| 144 | `README.md` | 5.0 KB | 2025-11-11T05:32:18Z | `07062e207f64330b27223737941771079d8ca138404afd758bb29d7920cb91ad` |
+| 145 | `REPOSITORY_INFO.md` | 3.0 KB | 2025-11-11T05:32:18Z | `6cbe169e09fc1c036deaab04cf6efd0aa77d55067e9e3dcbbe1e4f41bbd47f3c` |
 | 146 | `requirements.txt` | 188 B | 2025-11-11T04:13:34Z | `46c4ef694150fe470466495742b96bc2bf9a1d9b97548b21e6f4aafc6eb89f70` |
 | 147 | `tests/__init__.py` | 33 B | 2025-11-11T04:13:03Z | `be48aee56b4c5914ea6602a6be317497b80d183dfdde8b8fa8d6356cb1cd897e` |
 | 148 | `tests/test_data_integrity.py` | 3.5 KB | 2025-11-11T04:13:03Z | `5ccdc8ba25185481af67bfc4dbd8a077ef6d1915536dd5b626ecb2f131da3e2a` |

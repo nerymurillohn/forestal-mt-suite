@@ -8,7 +8,7 @@ owner: nerymurillohn
 type: Brand and Product Data Repository
 company: Forestal MT (Forestal Murillo Tejada S. de R.L. de C.V.)
 country: Honduras
-industry: Artisan Furniture Manufacturing
+industry: Traditional Botanical Products
 canonical: true
 description: Comprehensive palette, gradients, and motion guidance built from the six canonical Forestal MT colors.
 last_reviewed: 2025-11-09

@@ -60,7 +60,7 @@ This repository is optimized for consumption by AI assistants, automation system
 ├── .gitignore (610 B)
 ├── .python-version (5 B)
 ├── AGENTS.md (15.7 KB)
-├── INVENTORY.md (24.8 KB)
+├── INVENTORY.md (25.0 KB)
 ├── README.md (5.0 KB)
 ├── REPOSITORY_INFO.md (3.0 KB)
 └── requirements.txt (188 B)
