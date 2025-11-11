@@ -4,10 +4,11 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 from collections import OrderedDict
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Iterable, List
+from typing import Dict, Iterable, List, Optional
 
 import openpyxl
 
@@ -71,7 +72,64 @@ WHOLESALE_HEADERS = [
     "Unit",
     "Currency",
     "Price",
+    "Pack Quantity",
+    "Pack Unit",
+    "Inner Measurement",
+    "Inner Unit",
 ]
+
+CASE_PRESENTATION_RE = re.compile(
+    r"^Case \((?P<count>\d+)\s+(?P<pack_unit>[A-Za-z ]+?)\s+x\s+(?P<inner_amount>[0-9]+(?:\.[0-9]+)?)\s+(?P<inner_unit>[A-Za-z]+)\)$",
+    re.IGNORECASE,
+)
+
+# Some wholesale pack configurations cannot be expressed directly in the Excel
+# master (binary diffs are discouraged in the repo), so we maintain the case-pack
+# metadata here and overlay it before writing the CSV/JSON artifacts.
+WHOLESALE_CASE_PACK_OVERRIDES = {
+    "FMT-BO-SB-2025": [
+        {
+            "wholesale_presentation": "Case (12 bars x 100 g)",
+            "presentation_type": "case pack",
+            "measurement": 12,
+            "unit": "bars",
+            "pack_quantity": 12,
+            "pack_unit": "bars",
+            "inner_measurement": 100,
+            "inner_unit": "g",
+        },
+        {
+            "wholesale_presentation": "Case (24 bars x 100 g)",
+            "presentation_type": "case pack",
+            "measurement": 24,
+            "unit": "bars",
+            "pack_quantity": 24,
+            "pack_unit": "bars",
+            "inner_measurement": 100,
+            "inner_unit": "g",
+        },
+        {
+            "wholesale_presentation": "Case (48 bars x 100 g)",
+            "presentation_type": "case pack",
+            "measurement": 48,
+            "unit": "bars",
+            "pack_quantity": 48,
+            "pack_unit": "bars",
+            "inner_measurement": 100,
+            "inner_unit": "g",
+        },
+        {
+            "wholesale_presentation": "Case (96 bars x 100 g)",
+            "presentation_type": "case pack",
+            "measurement": 96,
+            "unit": "bars",
+            "pack_quantity": 96,
+            "pack_unit": "bars",
+            "inner_measurement": 100,
+            "inner_unit": "g",
+        },
+    ]
+}
 
 
 def _load_rows(path: Path) -> Iterable[Dict[str, object]]:
@@ -144,30 +202,112 @@ def build_base_catalog() -> Dict[str, Dict[str, object]]:
     return base
 
 
+def _normalize_number(value: object) -> Optional[object]:
+    if isinstance(value, float) and value.is_integer():
+        return int(value)
+    return value
+
+
+def _apply_wholesale_overrides(rows: List[Dict[str, object]]) -> List[Dict[str, object]]:
+    adjusted: List[Dict[str, object]] = []
+    remaining_overrides = {sku: overrides.copy() for sku, overrides in WHOLESALE_CASE_PACK_OVERRIDES.items()}
+    for row in rows:
+        sku = str(row.get("SKU", "")).strip()
+        overrides = remaining_overrides.get(sku)
+        if overrides:
+            override = overrides.pop(0)
+            new_row = row.copy()
+            presentation = override.get("wholesale_presentation")
+            if presentation:
+                new_row["Wholesale Presentation"] = presentation
+            presentation_type = override.get("presentation_type")
+            if presentation_type:
+                new_row["Presentation Type"] = presentation_type
+            for key in ("Measurement", "Unit", "Currency", "Price"):
+                if key in override:
+                    new_row[key] = override[key]
+            for extra_key, target_key in (
+                ("pack_quantity", "Pack Quantity"),
+                ("pack_unit", "Pack Unit"),
+                ("inner_measurement", "Inner Measurement"),
+                ("inner_unit", "Inner Unit"),
+            ):
+                if extra_key in override:
+                    new_row[target_key] = override[extra_key]
+            adjusted.append(new_row)
+        else:
+            adjusted.append(row)
+    for sku, overrides in remaining_overrides.items():
+        if overrides:
+            raise ValueError(
+                f"Wholesale overrides for {sku} not fully applied; {len(overrides)} definitions unused"
+            )
+    return adjusted
+
+
+def _enrich_wholesale_rows(rows: List[Dict[str, object]]) -> None:
+    for row in rows:
+        presentation = str(row.get("Wholesale Presentation", "")).strip()
+        match = CASE_PRESENTATION_RE.match(presentation)
+        if match:
+            count_raw = match.group("count")
+            pack_unit = match.group("pack_unit").strip()
+            inner_amount_raw = match.group("inner_amount")
+            inner_unit = match.group("inner_unit").strip()
+
+            if count_raw:
+                count = int(float(count_raw))
+                row["Pack Quantity"] = count
+            if pack_unit:
+                row["Pack Unit"] = pack_unit
+            if inner_amount_raw:
+                inner_amount = float(inner_amount_raw)
+                if inner_amount.is_integer():
+                    inner_amount = int(inner_amount)
+                row["Inner Measurement"] = inner_amount
+            if inner_unit:
+                row["Inner Unit"] = inner_unit
+        else:
+            row.setdefault("Pack Quantity", None)
+            row.setdefault("Pack Unit", None)
+            row.setdefault("Inner Measurement", None)
+            row.setdefault("Inner Unit", None)
+
+
 def _build_presentations(channel: str, headers: List[str], rows: Iterable[Dict[str, object]]) -> List[Dict[str, object]]:
     items: List[Dict[str, object]] = []
     for row in rows:
         sku = str(row.get("SKU", "")).strip()
         if not sku:
             continue
-        measurement = row.get("Measurement")
-        if isinstance(measurement, float) and measurement.is_integer():
-            measurement = int(measurement)
-        price = row.get("Price")
-        if isinstance(price, float) and price.is_integer():
-            price = int(price)
-        items.append(
-            {
-                "sku": sku,
-                "channel": channel,
-                "presentation": row.get(headers[3], ""),
-                "presentation_type": row.get("Presentation Type", ""),
-                "measurement": measurement,
-                "unit": row.get("Unit", ""),
-                "currency": row.get("Currency", ""),
-                "price": price,
-            }
-        )
+        measurement = _normalize_number(row.get("Measurement"))
+        price = _normalize_number(row.get("Price"))
+        pack_quantity = _normalize_number(row.get("Pack Quantity"))
+        inner_measurement = _normalize_number(row.get("Inner Measurement"))
+        item = {
+            "sku": sku,
+            "channel": channel,
+            "presentation": row.get(headers[3], ""),
+            "presentation_type": row.get("Presentation Type", ""),
+            "measurement": measurement,
+            "unit": row.get("Unit", ""),
+            "currency": row.get("Currency", ""),
+            "price": price,
+        }
+        if pack_quantity not in (None, ""):
+            item["pack_quantity"] = pack_quantity
+            pack_unit = row.get("Pack Unit")
+            if pack_unit not in (None, ""):
+                item["pack_unit"] = pack_unit
+        inner_unit = row.get("Inner Unit")
+        if inner_measurement not in (None, ""):
+            item["inner_measurement"] = inner_measurement
+            if inner_unit not in (None, ""):
+                item["inner_unit"] = inner_unit
+        elif inner_unit not in (None, ""):
+            # Preserve explicit unit metadata even if the measurement is blank.
+            item["inner_unit"] = inner_unit
+        items.append(item)
     items.sort(key=lambda obj: (obj["sku"], obj["channel"], str(obj["presentation"])))
     return items
 
@@ -184,6 +324,8 @@ def main() -> None:
     base = build_base_catalog()
     retail_rows = list(_load_rows(RETAIL_XLSX))
     wholesale_rows = list(_load_rows(WHOLESALE_XLSX))
+    wholesale_rows = _apply_wholesale_overrides(wholesale_rows)
+    _enrich_wholesale_rows(wholesale_rows)
     retail_presentations = _build_presentations("retail", RETAIL_HEADERS, retail_rows)
     wholesale_presentations = _build_presentations("wholesale", WHOLESALE_HEADERS, wholesale_rows)
 

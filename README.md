@@ -10,7 +10,7 @@ Forestal MT Suite is the canonical brand, product, and operations repository for
    ```bash
    python tools/build_product_data.py
    ```
-   Produces `products-data/catalogue.json`, `sku-base.json`, `sku-presentations.json`, `retail.csv`, and `wholesale.csv` directly from the Excel masters.
+   Produces `products-data/catalogue.json`, `sku-base.json`, `sku-presentations.json`, `retail.csv`, and `wholesale.csv` directly from the Excel masters. Case-pack specifics for wholesale items are injected by the build script (see `WHOLESALE_CASE_PACK_OVERRIDES` in `tools/build_product_data.py`), so the export still includes `Pack Quantity`, `Pack Unit`, `Inner Measurement`, and `Inner Unit` without touching the binary workbooks.
 3. **Verify referential integrity**
    ```bash
    python tools/verify_product_assets.py
@@ -50,18 +50,18 @@ Forestal MT Suite is the canonical brand, product, and operations repository for
 ## Repository Snapshot
 
 <!-- AUTO-REPO-SNAPSHOT:START -->
-_Last updated: 2025-11-11 01:45:54 UTC_
+_Last updated: 2025-11-11 02:21:14 UTC_
 
 | Top-Level | Subdirs | Files | Size |
 | --- | ---: | ---: | ---: |
-| ./ (root) | 0 | 3 | 31.6 KB |
-| .githooks/ | 0 | 1 | 398 B |
-| .github/ | 1 | 1 | 763 B |
+| ./ (root) | 0 | 3 | 31.3 KB |
+| .githooks/ | 0 | 1 | 385 B |
+| .github/ | 1 | 1 | 762 B |
 | assets/ | 22 | 104 | 54.7 MB |
-| docs/ | 3 | 16 | 49.5 KB |
-| products-data/ | 0 | 9 | 492.0 KB |
-| projects/ | 1 | 3 | 70.1 KB |
-| tools/ | 0 | 3 | 17.6 KB |
+| docs/ | 3 | 16 | 48.5 KB |
+| products-data/ | 0 | 9 | 485.0 KB |
+| projects/ | 1 | 3 | 68.3 KB |
+| tools/ | 0 | 3 | 19.5 KB |
 | **Total** | **27** | **140** | **55.4 MB** |
 
 See [`INVENTORY.md`](INVENTORY.md) for the complete file listing.
