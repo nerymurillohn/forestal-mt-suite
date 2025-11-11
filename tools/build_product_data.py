@@ -74,6 +74,21 @@ WHOLESALE_HEADERS = [
 ]
 
 
+def _determine_generated_at(core_payload, target_path: Path) -> str:
+    """Return a stable timestamp unless the core payload changed."""
+    now = datetime.now(timezone.utc).isoformat()
+    if not target_path.exists():
+        return now
+    try:
+        existing = json.loads(target_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return now
+    previous_timestamp = existing.pop("generated_at", None)
+    if existing == core_payload and previous_timestamp:
+        return previous_timestamp
+    return now
+
+
 def _load_rows(path: Path) -> Iterable[Dict[str, object]]:
     wb = openpyxl.load_workbook(path, data_only=True)
     ws = wb.active
@@ -199,8 +214,13 @@ def main() -> None:
     ):
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    catalogue_core = OrderedDict(METADATA)
+    catalogue_core["products"] = base_list
+    catalogue_core["presentations"] = presentations
+    generated_at = _determine_generated_at(catalogue_core, CATALOG_JSON)
+
     catalogue_payload = OrderedDict(METADATA)
-    catalogue_payload["generated_at"] = datetime.now(timezone.utc).isoformat()
+    catalogue_payload["generated_at"] = generated_at
     catalogue_payload["products"] = base_list
     catalogue_payload["presentations"] = presentations
     CATALOG_JSON.write_text(json.dumps(catalogue_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
