@@ -54,16 +54,17 @@ This repository is optimized for consumption by AI assistants, automation system
 ├── docs/ (dirs: 3, files: 16, size: 48.5 KB)
 ├── products-data/ (dirs: 0, files: 9, size: 485.3 KB)
 ├── projects/ (dirs: 2, files: 6, size: 115.9 KB)
-├── tests/ (dirs: 0, files: 2, size: 3.5 KB)
+├── tests/ (dirs: 1, files: 4, size: 18.4 KB)
 ├── tools/ (dirs: 0, files: 3, size: 18.1 KB)
 ├── .gitattributes (592 B)
 ├── .gitignore (610 B)
 ├── .python-version (5 B)
-├── AGENTS.md (16.0 KB)
+├── =4.17.0 (0 B)
+├── AGENTS.md (18.5 KB)
 ├── INVENTORY.md (25.0 KB)
 ├── README.md (5.0 KB)
 ├── REPOSITORY_INFO.md (3.0 KB)
-└── requirements.txt (188 B)
+└── requirements.txt (261 B)
 ```
 <!-- AUTO-REPO-STRUCTURE:END -->
 
