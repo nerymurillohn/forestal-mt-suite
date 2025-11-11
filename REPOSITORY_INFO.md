@@ -59,7 +59,7 @@ This repository is optimized for consumption by AI assistants, automation system
 ├── .gitattributes (592 B)
 ├── .gitignore (610 B)
 ├── .python-version (5 B)
-├── AGENTS.md (18.2 KB)
+├── AGENTS.md (18.7 KB)
 ├── INVENTORY.md (25.3 KB)
 ├── README.md (5.0 KB)
 ├── REPOSITORY_INFO.md (3.0 KB)
