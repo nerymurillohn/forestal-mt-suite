@@ -70,6 +70,7 @@ See [`INVENTORY.md`](INVENTORY.md) for the complete file listing.
 
 ## Key Documents
 
+- **Executive Summary**: [`EXECUTIVE_SUMMARY.md`](EXECUTIVE_SUMMARY.md) - Comprehensive strategic, technical, and operational analysis (1,152 lines)
 - Brand Identity: [`docs/brand/overview.md`](docs/brand/overview.md), [`docs/brand/voice.md`](docs/brand/voice.md), [`docs/brand/colors.md`](docs/brand/colors.md), [`docs/brand/typography.md`](docs/brand/typography.md), [`docs/brand/logo.md`](docs/brand/logo.md)
 - Collections: [`docs/collections/batana-oil.md`](docs/collections/batana-oil.md), [`docs/collections/stingless-bee-honey.md`](docs/collections/stingless-bee-honey.md), [`docs/collections/traditional-herbs.md`](docs/collections/traditional-herbs.md)
 - Company Operations: [`docs/company/company-profile.md`](docs/company/company-profile.md), [`docs/company/authenticity-chain.md`](docs/company/authenticity-chain.md), [`docs/company/shipping.md`](docs/company/shipping.md), [`docs/company/returns-policy.md`](docs/company/returns-policy.md), [`docs/company/business-hours.md`](docs/company/business-hours.md)
