@@ -49,7 +49,7 @@ This repository is optimized for consumption by AI assistants, automation system
 ```
 .
 ├── .githooks/ (dirs: 0, files: 1, size: 385 B)
-├── .github/ (dirs: 1, files: 2, size: 4.4 KB)
+├── .github/ (dirs: 1, files: 2, size: 4.5 KB)
 ├── assets/ (dirs: 22, files: 104, size: 54.7 MB)
 ├── docs/ (dirs: 3, files: 16, size: 48.5 KB)
 ├── products-data/ (dirs: 0, files: 9, size: 485.3 KB)

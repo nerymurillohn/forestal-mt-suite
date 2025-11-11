@@ -50,13 +50,13 @@ Forestal MT Suite is the canonical brand, product, and operations repository for
 ## Repository Snapshot
 
 <!-- AUTO-REPO-SNAPSHOT:START -->
-_Last updated: 2025-11-11 07:34:25 UTC_
+_Last updated: 2025-11-11 08:03:08 UTC_
 
 | Top-Level | Subdirs | Files | Size |
 | --- | ---: | ---: | ---: |
 | ./ (root) | 0 | 9 | 59.8 KB |
 | .githooks/ | 0 | 1 | 385 B |
-| .github/ | 1 | 2 | 4.4 KB |
+| .github/ | 1 | 2 | 4.5 KB |
 | assets/ | 22 | 104 | 54.7 MB |
 | docs/ | 3 | 16 | 48.5 KB |
 | products-data/ | 0 | 9 | 485.3 KB |
