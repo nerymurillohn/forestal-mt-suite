@@ -1,6 +1,6 @@
 # Repository Inventory
 
-Generated: 2025-11-10T18:10:56Z
+Generated: 2025-11-11T01:11:01Z
 Total directories: 34
 Total files: 140
 Total size: 55.4 MB
@@ -131,21 +131,21 @@ Total size: 55.4 MB
 | 120 | `docs/company/company-profile.md` | 753 B | 2025-11-10T16:03:27Z | `70885e769f9c353a4cd976d89c1cb219cbe1c50bcdc6ec99f730e7b33361bbc9` |
 | 121 | `docs/company/returns-policy.md` | 2.2 KB | 2025-11-10T16:03:27Z | `ebdd6d9b8d634503e7df46908a33b8208fa0ca9cbbcd3f45ec4b0acdd40cc3ff` |
 | 122 | `docs/company/shipping.md` | 2.5 KB | 2025-11-10T16:03:27Z | `4cf8c396d53a8619572c16292bf25029e8af41ab81d6e8b1f9e4e22bcf59d2b8` |
-| 123 | `INVENTORY.md` | 23.3 KB | 2025-11-10T17:49:13Z | `fb549528bfec2df2658b34c5eabb322521083b07744b9440322e5d2d06d5ab9c` |
-| 124 | `products-data/catalogue.json` | 198.4 KB | 2025-11-10T18:10:55Z | `1c5c240620871dd86b86b088a6a94f65f4e18e46a5b4e1716142aaa750552c0b` |
+| 123 | `INVENTORY.md` | 23.6 KB | 2025-11-10T18:10:56Z | `3d3525e097f5090fc82494aca2849c312f99b2a4007338c94c9a5f3e090d7144` |
+| 124 | `products-data/catalogue.json` | 198.4 KB | 2025-11-11T01:10:59Z | `ee1ea2920a05bd7e7dfc515784102e44915c7efbf73e73008037d3a73c4f1e7e` |
 | 125 | `products-data/data-manifest.json` | 19.8 KB | 2025-11-10T16:58:21Z | `5e3daebd9bf5b663fc54e559b9110752417e02073e747b2961e46274bca1ec87` |
 | 126 | `products-data/forestal-mt-products-catalogue-46-skus.xlsx` | 33.8 KB | 2025-11-10T08:48:54Z | `648c90a4a43cb578cf008b1cde328336a484de63f8ecf9fc1b7a1a235e02c258` |
 | 127 | `products-data/forestal-mt-products-retail-presentations-and-pricing.xlsx` | 14.6 KB | 2025-11-09T11:33:36Z | `013ab87a29c23fd9aac039224c6b0005cff07ce748a748efd3a0cf57509f4067` |
 | 128 | `products-data/forestal-mt-products-wholesale-presentations-and-pricing.xlsx` | 13.3 KB | 2025-11-09T11:34:46Z | `a8fd0d2515f17d0ce5bae5627f809f082a71d7495d54f0ab7c67d62d29cd81bc` |
-| 129 | `products-data/retail.csv` | 9.6 KB | 2025-11-10T18:10:55Z | `cc545221faf17d5806808ff0d147ff0bc632d6fb4210c2564be21f3bf7505d85` |
-| 130 | `products-data/sku-base.json` | 137.7 KB | 2025-11-10T18:10:55Z | `c7e369912a6ff14cb61056f14afcb43bed4743dbf042d6942e21cbdb50268487` |
-| 131 | `products-data/sku-presentations.json` | 54.1 KB | 2025-11-10T18:10:55Z | `493206704318f3aad47cf6634dbb8081e993e1fe37c78d0ebbd049131c99efab` |
-| 132 | `products-data/wholesale.csv` | 10.6 KB | 2025-11-10T18:10:55Z | `ea96c9df9bf063c95ad9c61151e7709bab81fe09d4ba86292ff40c0965bf3f5f` |
+| 129 | `products-data/retail.csv` | 9.6 KB | 2025-11-11T01:10:59Z | `cc545221faf17d5806808ff0d147ff0bc632d6fb4210c2564be21f3bf7505d85` |
+| 130 | `products-data/sku-base.json` | 137.7 KB | 2025-11-11T01:10:59Z | `c7e369912a6ff14cb61056f14afcb43bed4743dbf042d6942e21cbdb50268487` |
+| 131 | `products-data/sku-presentations.json` | 54.1 KB | 2025-11-11T01:10:59Z | `493206704318f3aad47cf6634dbb8081e993e1fe37c78d0ebbd049131c99efab` |
+| 132 | `products-data/wholesale.csv` | 10.6 KB | 2025-11-11T01:10:59Z | `ea96c9df9bf063c95ad9c61151e7709bab81fe09d4ba86292ff40c0965bf3f5f` |
 | 133 | `projects/forestal-mt-digital-catalogue/catalogue-build-files.md` | 6.9 KB | 2025-11-10T16:59:21Z | `c78567879f670639e299721b2827cf1eb823d4e2f217c14520aa0706407a2bc6` |
 | 134 | `projects/forestal-mt-digital-catalogue/forestal-mt-digital-catalogue-blueprint.md` | 56.6 KB | 2025-11-10T17:00:52Z | `147ef47526ef30359e828c40fe580dd6785a155a75ca37f0e32cad4f0cfd4aff` |
 | 135 | `projects/forestal-mt-digital-catalogue/source-files-manifest.md` | 6.6 KB | 2025-11-10T16:59:30Z | `924921741675f4eacbfda40f36e35bc84a7569c7db690f6ef874f9d8b85b181b` |
-| 136 | `README.md` | 5.0 KB | 2025-11-10T18:05:00Z | `fb80afa342f11eab71f2a7c74f96206b270b617f445434acb7acd268c4193b9c` |
-| 137 | `REPOSITORY_INFO.md` | 2.8 KB | 2025-11-10T17:49:13Z | `3999a84af20fdd0488053a46312cd8335b2c50b9581f6a3925462e6010c45d3d` |
+| 136 | `README.md` | 5.1 KB | 2025-11-10T18:10:56Z | `571070f01e8b1ab2997d0e42627268571e5feb40cb390e55357affd901d5f3ec` |
+| 137 | `REPOSITORY_INFO.md` | 2.9 KB | 2025-11-10T18:10:56Z | `b5099c2633c66ab39698c47f0d0d0d857b87703def4c8eb27d60137b260b8a4f` |
 | 138 | `tools/build_product_data.py` | 7.8 KB | 2025-11-10T16:56:43Z | `8186dcbfc93349a659102a62512a18a2de370f845935282b70f84874afdba393` |
 | 139 | `tools/generate_inventory.py` | 7.4 KB | 2025-11-10T17:49:04Z | `42b8e9309fa2fff77050fedcc96c51ef2fb525ba5ccac4c5ea48ae086a606f15` |
 | 140 | `tools/verify_product_assets.py` | 2.4 KB | 2025-11-10T16:58:36Z | `1171b1b492be4ff6d4a41482c9fa820afc2ed61d6711db8a7b06eec2448e4964` |
